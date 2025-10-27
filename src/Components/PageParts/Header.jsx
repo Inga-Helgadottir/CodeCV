@@ -1,3 +1,5 @@
+import "../../Styles/Header.css";
+import "../../Styles/ColorVariables.css";
 import imgOfMe from "../../images/newCVpic.jpg";
 import UpdateLanguage from "../../Components/PageParts/UpdateLanguage";
 import { getText } from "../GetCurrentLanguage";

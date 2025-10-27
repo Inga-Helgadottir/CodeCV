@@ -1,3 +1,4 @@
+import "../../Styles/UpdateLanguage.css";
 import UKflag from "../../images/UKflag.svg";
 import DKflag from "../../images/DKflag.svg";
 
