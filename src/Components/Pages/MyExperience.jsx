@@ -6,6 +6,7 @@ const MyExperience = () => {
   const [Experience, setExperience] = useState("");
 
   useEffect(() => {
+    localStorage.setItem("chosenNavElement", 2);
     const ExperienceHeadingsAndParagraphs = getText(
       "ExperienceHeadingsAndParagraphs"
     );

@@ -5,13 +5,13 @@ import { Outlet, Link } from "react-router-dom";
 
 const NavBar = () => {
   const [NavBarOptions, setNavBarOptions] = useState([{}]);
-  const [chosenOption, setChosenOption] = useState("");
+  const [chosenOption, setChosenOption] = useState();
 
   useEffect(() => {
     setNavBarOptions(getText("NavBarOptions"));
     let currentChosenNavBarOption = localStorage.getItem("chosenNavElement");
+    console.log(currentChosenNavBarOption);
     if (currentChosenNavBarOption === "") {
-      setChosenOption(1);
       localStorage.setItem("chosenNavElement", 1);
     } else {
       setChosenOption(currentChosenNavBarOption);

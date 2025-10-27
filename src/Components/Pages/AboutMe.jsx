@@ -6,6 +6,7 @@ const AboutMe = () => {
   const [AboutMe, setAboutMe] = useState({ heading: "", paragraphs: [] });
 
   useEffect(() => {
+    localStorage.setItem("chosenNavElement", 1);
     async function loadText() {
       const AboutMeHeadingAndParagraph = await getText(
         "AboutMeHeadingAndParagraph"

@@ -6,6 +6,7 @@ const MyEducation = () => {
   const [Education, setEducationContent] = useState({});
 
   useEffect(() => {
+    localStorage.setItem("chosenNavElement", 3);
     const EducationHeadingAndParagraphs = getText(
       "EducationHeadingAndParagraphs"
     );
