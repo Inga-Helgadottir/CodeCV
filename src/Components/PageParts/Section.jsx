@@ -7,11 +7,15 @@ const Section = (element) => {
         element.option?.map((section, key) => {
           return (
             <section key={key} className="section">
-              <h3>{section.location}</h3>
-              <p>{section.position}</p>
-              <p>{section.date}</p>
+              <h3 className="sectionElement">{section.location}</h3>
+              <p className="sectionElement">{section.position}</p>
+              <p className="sectionElement">{section.date}</p>
               {section.paragraph?.map((paragraph, key) => {
-                return <p key={key}>{paragraph}</p>;
+                return (
+                  <p className="sectionElement" key={key}>
+                    {paragraph}
+                  </p>
+                );
               })}
             </section>
           );
