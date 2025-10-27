@@ -1,6 +1,6 @@
 # This is a repository for my code CV
 
-Here I will add my schools, courses, jobs and display some of what I can do.
+Here I will add my education, courses, jobs and display some of what I can do.
 
 # Getting Started with Create React App
 

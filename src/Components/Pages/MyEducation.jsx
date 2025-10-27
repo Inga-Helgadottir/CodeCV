@@ -1,5 +1,5 @@
 const MyEducation = () => {
-  <h1>My education</h1>;
+  return <h1>My education</h1>;
 };
 
 export default MyEducation;
