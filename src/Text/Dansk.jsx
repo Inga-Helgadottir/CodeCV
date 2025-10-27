@@ -123,17 +123,17 @@ export const NavBarOptions_dk = [
   },
   {
     id: 2,
+    optionName: "Erfaring",
+    optionDestination: "/Experience",
+  },
+  {
+    id: 3,
     optionName: "Uddannelse",
     optionDestination: "/Education",
   },
   {
-    id: 3,
+    id: 4,
     optionName: "Mine kurser",
     optionDestination: "/Courses",
-  },
-  {
-    id: 4,
-    optionName: "Erfaring",
-    optionDestination: "/Experience",
   },
 ];
