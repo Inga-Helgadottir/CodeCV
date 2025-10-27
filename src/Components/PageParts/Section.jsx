@@ -1,6 +1,5 @@
 import "../../Styles/Sections.css";
 const Section = (element) => {
-  console.log(element.option);
   return (
     <div>
       {element.option.length > 1 &&

@@ -8,18 +8,19 @@ import NavBar from "./Components/PageParts/NavBar";
 import AboutMe from "./Components/Pages/AboutMe";
 
 function App() {
-  const [currenLocation, setCurrenLocation] = useState("");
   const [isStartPage, setIsStartPage] = useState(true);
 
   useEffect(() => {
-    let location = window.location.href;
-    setCurrenLocation(location);
-    setIsStartPage(currenLocation[currenLocation.length - 1] === "/");
-    if (isStartPage) {
+    const location = window.location.href;
+    const isStart = location[location.length - 1] === "/";
+
+    setIsStartPage(isStart);
+
+    if (isStart) {
       localStorage.setItem("chosenNavElement", 1);
       localStorage.setItem("CurrentLanguage", "dk");
     }
-  }, [currenLocation, isStartPage]);
+  }, []);
 
   return (
     <div className="App">
