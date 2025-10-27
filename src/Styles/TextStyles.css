@@ -1,0 +1,35 @@
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+p {
+  font-size: 20px;
+}
+
+ul {
+  font-size: 30px;
+  color: var(--ulColor);
+}
+
+h1,
+h2,
+h3 {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: var(--maintextColor);
+  margin: 0;
+  padding: 20px;
+}
