@@ -1,0 +1,21 @@
+:root {
+  --generalBG: #e3eaff;
+  --headerTextColor: white;
+  --headerBackUpBackground-image: linear-gradient(
+    to right,
+    #5e1180,
+    #063b8c,
+    #06777a
+  );
+  --headerAndFooterBG: #415cb4;
+  --headerBackground-color: #5e1180;
+  --navUlText-shadow: 5px 5px 5px black;
+
+  --navBackground-color: #5e1180;
+  --navBorder: 5px solid black;
+  --liColor: white;
+  --uliHoverChosenColor: red;
+
+  --maintextColor: black;
+  --mainBackground-color: rgb(209, 208, 234);
+}
