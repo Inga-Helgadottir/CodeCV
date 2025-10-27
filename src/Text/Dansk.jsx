@@ -96,11 +96,21 @@ export const CoursesHeadingAndParagraphs_dk = [
     position: "",
     date: "",
     paragraph: [
-      "TypeScript Essential Training - https://lnkd.in/eS6tde62",
-      "Azure AI: The Big Picture (2023) - https://lnkd.in/eEpDfyzt ",
-      "Microsoft Power Automate Essential Training - https://lnkd.in/esz2VXU3 ",
-      "From React to React Native - https://lnkd.in/eEc-F4yJ",
-      "Microsoft Power Platform App Maker (PL-100) Cert Prep - https://lnkd.in/e_z-CkRi",
+      <a href="https://lnkd.in/eS6tde62" rel="noreferrer" target="_blank">
+        TypeScript Essential Training
+      </a>,
+      <a href="https://lnkd.in/eEpDfyzt" rel="noreferrer" target="_blank">
+        Azure AI: The Big Picture (2023)
+      </a>,
+      <a href="https://lnkd.in/esz2VXU3" rel="noreferrer" target="_blank">
+        Microsoft Power Automate Essential Training
+      </a>,
+      <a href="https://lnkd.in/eEc-F4yJ" rel="noreferrer" target="_blank">
+        From React to React Native
+      </a>,
+      <a href="https://lnkd.in/e_z-CkRi" rel="noreferrer" target="_blank">
+        Microsoft Power Platform App Maker (PL-100) Cert Prep
+      </a>,
     ],
   },
 ];
