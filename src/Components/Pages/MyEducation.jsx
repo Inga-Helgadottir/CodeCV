@@ -1,5 +1,19 @@
+import { useEffect, useState } from "react";
+import { getText } from "../GetCurrentLanguage";
+import Section from "../PageParts/Section";
+
 const MyEducation = () => {
-  return <h1>My education</h1>;
+  const [Education, setEducationContent] = useState({});
+
+  useEffect(() => {
+    const EducationHeadingAndParagraphs = getText(
+      "EducationHeadingAndParagraphs"
+    );
+
+    setEducationContent(EducationHeadingAndParagraphs);
+  }, []);
+
+  return <Section option={Education} />;
 };
 
 export default MyEducation;
