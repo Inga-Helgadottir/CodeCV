@@ -8,26 +8,10 @@ import NavBar from "./Components/PageParts/NavBar";
 import AboutMe from "./Components/Pages/AboutMe";
 
 function App() {
-  const [isStartPage, setIsStartPage] = useState(true);
-
-  useEffect(() => {
-    const location = window.location.href;
-    const isStart = location.endsWith("/");
-
-    if (isStart) {
-      localStorage.setItem("chosenNavElement", 1);
-      localStorage.setItem("CurrentLanguage", "dk");
-    } else {
-      setIsStartPage(false);
-    }
-
-    setIsStartPage(isStart);
-  }, []);
   return (
     <div className="App">
       <Header />
       <NavBar />
-      {isStartPage && <AboutMe />}
       <Footer />
     </div>
   );
