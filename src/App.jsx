@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     const location = window.location.href;
-    const isStart = location[location.length - 1] === "/";
+    const isStart = location.endsWith("/");
 
     if (isStart) {
       localStorage.setItem("chosenNavElement", 1);
@@ -20,8 +20,9 @@ function App() {
     } else {
       setIsStartPage(false);
     }
-  }, []);
 
+    setIsStartPage(isStart);
+  }, []);
   return (
     <div className="App">
       <Header />
