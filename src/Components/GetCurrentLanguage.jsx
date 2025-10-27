@@ -36,6 +36,8 @@ export const getText = (whichText) => {
         return English.NavBarOptions_eng;
       case "CoursesHeadingAndParagraphs":
         return English.CoursesHeadingAndParagraphs_eng;
+      case "NoContentPage":
+        return English.NoPage_eng;
       default:
         return "fejl";
     }
@@ -55,6 +57,8 @@ export const getText = (whichText) => {
         return Dansk.NavBarOptions_dk;
       case "CoursesHeadingAndParagraphs":
         return Dansk.CoursesHeadingAndParagraphs_dk;
+      case "NoContentPage":
+        return Dansk.NoPage_dk;
       default:
         return "fejl";
     }

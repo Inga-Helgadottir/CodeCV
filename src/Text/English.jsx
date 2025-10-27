@@ -117,6 +117,11 @@ export const CoursesHeadingAndParagraphs_eng = [
   },
 ];
 
+export const NoPage_eng = {
+  heading: "There is no content on this page",
+  content: "Back to the start page",
+};
+
 export const NavBarOptions_eng = [
   {
     id: 1,

@@ -115,6 +115,11 @@ export const CoursesHeadingAndParagraphs_dk = [
   },
 ];
 
+export const NoPage_dk = {
+  heading: "Der er intet på denne side",
+  content: "Tilbage til start siden",
+};
+
 export const NavBarOptions_dk = [
   {
     id: 1,
