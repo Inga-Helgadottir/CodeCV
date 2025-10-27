@@ -2,3 +2,14 @@
   border: double 2px black;
   margin: 10px 50px;
 }
+
+.sectionElement {
+  padding: 5px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 790px) {
+  .section {
+    margin: 10px;
+  }
+}
