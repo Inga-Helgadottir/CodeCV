@@ -9,3 +9,10 @@
 .flag {
   height: 60px;
 }
+
+/* Responsive */
+@media only screen and (max-width: 446px) {
+  .flag {
+    height: 30px;
+  }
+}

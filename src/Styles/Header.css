@@ -9,8 +9,6 @@ header {
 
 .headerImg {
   padding-right: 50px;
-  width: 15%;
-  height: auto;
 }
 
 .headerSection {
@@ -25,4 +23,21 @@ header {
   display: flex;
   text-align: start;
   flex-direction: column;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1042px) {
+  .headerSection p {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 748px) {
+  .headerImg {
+    display: none;
+  }
+
+  .HeaderText {
+    padding-left: 20px;
+  }
 }
