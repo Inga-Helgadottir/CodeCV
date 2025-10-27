@@ -19,7 +19,7 @@ function App() {
       localStorage.setItem("chosenNavElement", 1);
       localStorage.setItem("CurrentLanguage", "dk");
     }
-  }, []);
+  }, [currenLocation, isStartPage]);
 
   return (
     <div className="App">
