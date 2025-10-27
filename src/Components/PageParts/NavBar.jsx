@@ -10,7 +10,6 @@ const NavBar = () => {
   useEffect(() => {
     setNavBarOptions(getText("NavBarOptions"));
     let currentChosenNavBarOption = localStorage.getItem("chosenNavElement");
-    console.log(currentChosenNavBarOption);
     if (currentChosenNavBarOption === "") {
       localStorage.setItem("chosenNavElement", 1);
     } else {
