@@ -1,5 +1,5 @@
 .arrow {
-  width: 80px;
+  width: 10%;
 }
 
 .left-arrow {
@@ -8,19 +8,25 @@
 
 .gallery {
   border: solid 2px black;
-  width: 67%;
+  width: 95%;
   margin: 0 auto 5px auto;
 }
 
-.gallery #mainImg {
+#mainImg {
+  width: 100%;
+  height: auto;
   padding: 0;
   margin: 0;
   border-bottom: solid 2px black;
 }
 
 .thumbnail {
-  width: 54px;
+  width: 10%;
   height: auto;
   margin: 2px;
   border: solid 1px black;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
 }
