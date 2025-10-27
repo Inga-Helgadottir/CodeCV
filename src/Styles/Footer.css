@@ -20,3 +20,13 @@ footer h3 {
   justify-content: space-evenly;
   padding-bottom: 25px;
 }
+
+/* Responsive */
+@media only screen and (max-width: 452px) {
+  .footerDiv {
+    flex-direction: column;
+  }
+  footer a {
+    padding-top: 20px;
+  }
+}
