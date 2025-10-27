@@ -24,3 +24,15 @@ ul {
   color: var(--uliHoverChosenColor);
   text-decoration: underline;
 }
+
+/* Responsive */
+@media only screen and (max-width: 506px) {
+  ul {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .li {
+    padding: 5px 0;
+  }
+}

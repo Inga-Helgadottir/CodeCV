@@ -15,7 +15,8 @@ p {
 }
 
 ul {
-  font-size: 30px;
+  font-size: 2vw;
+  /* font-size: 30px; */
   color: var(--ulColor);
 }
 
@@ -35,6 +36,12 @@ p {
 }
 
 /* Responsive */
+@media only screen and (max-width: 770px) {
+  ul {
+    font-size: 20px;
+  }
+}
+
 @media only screen and (max-width: 386px) {
   h1 {
     font-size: 20px;
