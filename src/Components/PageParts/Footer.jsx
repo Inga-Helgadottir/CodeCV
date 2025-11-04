@@ -20,6 +20,15 @@ const Footer = () => {
           LinkedIn: inga-helgadottir
         </a>
       </div>
+      <div className="footerDiv2">
+        <a
+          href="https://github.com/Inga-Helgadottir"
+          rel="noreferrer"
+          target="_blank"
+        >
+          GitHub: Inga-Helgadottir
+        </a>
+      </div>
     </footer>
   );
 };
