@@ -7,7 +7,7 @@ const MyCourses = () => {
 
   useEffect(() => {
     localStorage.setItem("chosenNavElement", 4);
-    const CoursesHeadingAndParagraphs = getText("CoursesHeadingAndParagraphs");
+    let CoursesHeadingAndParagraphs = getText("CoursesHeadingAndParagraphs");
 
     setCourses(CoursesHeadingAndParagraphs);
   }, []);

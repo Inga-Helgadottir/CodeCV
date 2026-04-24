@@ -8,8 +8,8 @@ const AboutMe = () => {
   useEffect(() => {
     localStorage.setItem("chosenNavElement", 1);
     async function loadText() {
-      const AboutMeHeadingAndParagraph = await getText(
-        "AboutMeHeadingAndParagraph"
+      let AboutMeHeadingAndParagraph = await getText(
+        "AboutMeHeadingAndParagraph",
       );
       setAboutMe({
         heading: AboutMeHeadingAndParagraph.heading,

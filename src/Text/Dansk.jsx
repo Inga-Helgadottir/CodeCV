@@ -8,7 +8,7 @@ export const AboutMeHeadingAndParagraph_dk = {
     "Jeg er en islænding men blev født I Danmark og har boet her den største delen af mit liv og jeg er her for at blive. Jeg er en uddannet Full-stack udvikler (back-end og front-end udvikler) som elsker at kode. Jeg er en nørd med en passion for at lære nye ting og med kode ved jeg at man løber aldrig tør for nye ting at lære.",
     "Jeg fortrækker at gennemtænke min funktionalitet før jeg starter med at kode, så jeg kan få den reneste og smarteste kode muligt. Jeg kan bedst lide at arbejde Agilt, hvor alt er planlagt og jeg kan også lide da der kommer nye ændringer, midt i projektet. Jeg elsker at tænke gennem hvordan jeg gør min kode så nem som muligt at ændre i fremtiden, da alt teknologi opdateres regelmæssigt og derfor bliver alt kode ændret på et tidspunkt i fremtiden. Jeg er ærlig, venlig, kreativ og er god til at være upartisk og fair. Jeg arbejder godt alene og som en del af en gruppe. Jeg har meget erfaring med at forklare kode relaterede ting til mennesker som ved lidt eller intet om kode eller computere i det hele taget.",
     "Jeg har altid været god til at huske; jeg har endda lært et sæt spillekort udenad én gang i løbet af to dage. Nogle tal sidder endda fast for livet, som for eksempel dette nummer 0118 999 88199 9119 725 3 fra et tv-program kaldet 'The IT crowd', som I kan godt spørge om i et interview.",
-    "Udenover kodning kan jeg lide at være sammen med venner, male, bage og at spille bræt-, kort- og computerspil. Jeg kan også lide at tage billeder, her er nogle af mine billeder som jeg tog under en skole tur til Jordan",
+    "Udenover kodning kan jeg lide at være sammen med venner, male, bage og at spille bræt-, kort- og computerspil. Jeg elsker naturen, dyr og at hjælpe andre, jeg kan også lide at tage billeder, her er nogle af mine billeder som jeg tog under en skole tur til Jordan (Den Økoligiske Produktionsskole)",
   ],
 };
 
@@ -50,8 +50,22 @@ export const EducationHeadingAndParagraphs_dk = [
     date: "(Januar 2021 – Juni 2023)",
     paragraph: [
       "I løbet af min datamatikeruddannelse lærte jeg Java, SQL, oprettelse af REST API'er ved hjælp af Java Persistence API (JPA) og MYSQL, Unit and integration tests, Python, CD/CI, Maven, Docker, Apache Tomcat, de agile metoder, Extreme programming (XP) og Git (GitHub) i dybden. Jeg har brugt alle disse i mange forskellige projekter, normalt gennem IntelliJ IDEA, men jeg brugte også NetBeans et par gange. Jeg blev også introduceret til flere forskellige frameworks, libraries, værktøjer og sprog. Min uddannelse fokuserede på at hurtigt lære nye teknologier at kende og at bruge dem i mangle forskellige projekter.",
-      "Da det kom til eksamen i JPA lavede jeg et øvelsesprojekt som havde OneSide, OtherOneSide, ManySide, OtherManySide entities/Tables/Schemas, så jeg kunne lave alle de mulige relationer one to one, one to many and many to many. Her er linket til koden https://github.com/Inga-Helgadottir/JPA-Notes",
-      "Mit Python eksamensprojekt var at lavet spillet Hangman, hvor man skulle gætte på enten Rick and Morty karakterers navn som jeg fik fra et gratis API jeg fandt online eller film navne fra en CSV-fil jeg fandt online. Jeg brugte også et Python library som hedder Pillow og kan hjælpe med UI delen af spillet. Her kan du se koden bag hangman er her: https://github.com/Inga-Helgadottir/PythonEksamensProjekt",
+      "Da det kom til eksamen i JPA lavede jeg et øvelsesprojekt som havde OneSide, OtherOneSide, ManySide, OtherManySide entities/Tables/Schemas, så jeg kunne lave alle de mulige relationer one to one, one to many and many to many. Her er linket til koden:",
+      <a
+        href="https://github.com/Inga-Helgadottir/JPA-Notes"
+        rel="noreferrer"
+        target="_blank"
+      >
+        GitHub: JPA-Notes
+      </a>,
+      "Mit Python eksamensprojekt var at lavet spillet Hangman, hvor man skulle gætte på enten Rick and Morty karakterers navn som jeg fik fra et gratis API jeg fandt online eller film navne fra en CSV-fil jeg fandt online. Jeg brugte også et Python library som hedder Pillow og kan hjælpe med UI delen af spillet. Her kan du se koden bag hangman er her:",
+      <a
+        href="https://github.com/Inga-Helgadottir/PythonEksamensProjekt"
+        rel="noreferrer"
+        target="_blank"
+      >
+        GitHub: PythonEksamensProjekt
+      </a>,
     ],
   },
   {
@@ -61,15 +75,32 @@ export const EducationHeadingAndParagraphs_dk = [
     date: "(Januar 2019 – Oktober 2020)",
     paragraph: [
       "Under webudviklingsuddannelsen lærte jeg HTML, CSS, SASS, Bootstrap, JavaScript, Git (GitHub), JSON og hvordan man bruger REST API'er i dybden, ved at bruge hver af dem sammen i mange forskellige projekter ved hjælp af Visual Studio Code. Jeg blev også introduceret til flere forskellige frameworks, libraries, værktøjer og sprog.",
-      "Hver uge lavede vi en hjemmeside som handlede om vores yndlingsfilm, spil, album osv. Et af de mest mindeværdige projekter, jeg arbejdede på, var 40'ernes projektet. Der blev undervist i mange forskellige uddannelser i NEXT, og vi var alle delt op i teams, hvert hold med en front-end udvikler, UI/UX-designer, et par kostumedesignere, et par makeupartister og fotografer. Hvert hold fik et årti, og vi fik 40'erne. Vi arbejdede alle som et team for at lave en hjemmeside dedikeret til vores årti, som desværre ikke længere er online. For at få en bedre ide om, hvad vi har lært, kan du tage et kig på øvelsesarkivet, jeg oprettede for at blive klar til eksamen: https://github.com/SIngaH/practice.",
+      "Hver uge lavede vi en hjemmeside som handlede om vores yndlingsfilm, spil, album osv. Et af de mest mindeværdige projekter, jeg arbejdede på, var 40'ernes projektet. Der blev undervist i mange forskellige uddannelser i NEXT, og vi var alle delt op i teams, hvert hold med en front-end udvikler, UI/UX-designer, et par kostumedesignere, et par makeupartister og fotografer. Hvert hold fik et årti, og vi fik 40'erne. Vi arbejdede alle som et team for at lave en hjemmeside dedikeret til vores årti, som desværre ikke længere er online. For at få en bedre ide om, hvad vi har lært, kan du tage et kig på øvelsesarkivet, jeg oprettede for at blive klar til eksamen: ",
+      <a
+        href="https://github.com/SIngaH/practice"
+        rel="noreferrer"
+        target="_blank"
+      >
+        GitHub: practice
+      </a>,
     ],
   },
   {
-    location:
-      "Jeg har bestået Engelsk A og Dansk A hos VUC Lyngby og Matematik B hos KVUC.",
+    location: "Engelsk A og Dansk A hos VUC Lyngby og Matematik B hos KVUC.",
     position: "Dansk A, Engelsk A og Matematik B",
     date: "(December 2017 –December 2018)",
-    paragraph: [""],
+    paragraph: [
+      "Jeg tog begge Engelsk A og Dansk 0-A, for at have det på skrift at jeg er fagligt flydende på begge sprog, Matematik B tog jeg for at gøre mig klar til webudvikleren og fordi jeg kan godt lide Matematik.",
+    ],
+  },
+  {
+    location: "Den Økologiske Produktionsskole",
+    position: "Fotografi",
+    date: "(Januar 2013 - Juni 2015)",
+    paragraph: [
+      "En produktionsskole er et sted, hvor man får penge for at lære og derefter bruger den viden til at generere ting, man senere kan sælge, jeg gik på fotograflinjen så selvfølgelig solgte jeg billeder. Skolen havde mange forskellige linjer for eksempel dans, restaurantdrift, træværksted og kampagne.",
+      "Fotograflinjen og kampagnelinjen rejste til Jordan for at interviewe flygtninge, og da vi kom hjem, arbejdede vi tæt sammen om et velgørenhedsarrangement samt Ung Aktion, hvor vi indsamlede penge for at hjælpe dem. Jeg lavede roll-ups med billeder, QR-koder som ledte til videoer og links, hvor man kunne donere. Jeg designede også arrangementets logo, jeg har stadig t-shirten.",
+    ],
   },
 ];
 
@@ -81,6 +112,13 @@ export const CoursesHeadingAndParagraphs_dk = [
     paragraph: [
       "ExOpi Talent Academy er en 10-ugers kursus hvor jeg arbejdede på forskellige projektere til at vise dem hvad jeg kan imens jeg lærer nye ting og de hjælper med at finde et job til mig. Nogle af de opgaver jeg arbejdede på, var at lave spillet Blackjack ud af ReactJS og et Python projekt som kigger på en CSV-fil fyldt med linker til PDF filer, projektet kigger på disse links og hvis de er valide PDF-filer, skulle den downloade filen og hvis ikke bliver det link og informationer om hvorfor den ikke virker i en anden CSV-fil. I dette projekt brugte jeg multithreading for at kunne gennemgå de 250 links givet på 2 minutter i stedet for 3 timer, som det tog før multithreading. For at se koden bag disse 2 projekter kan du kigge på: https://github.com/Inga-Helgadottir/ExopiTalentAcademyProjects/, de andre projekter er privat, da det indeholder sensitive informationer.",
       "Jonas Rasmusen er lederen af Talentakademi og Innovation hos ExOpi og Bina Hjorth Reichstein er deres CEO og de er begge klar til at give en reference hvis I vil have den.",
+      <a
+        href="https://www.exopi.dk/talent-acedemy/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        ExOpi Talent Academy
+      </a>,
     ],
   },
   {

@@ -1,6 +1,28 @@
 export const HeaderHeading_eng = "Full-stack developer";
 export const HeaderContent_eng =
   "I love working with both front-end and back-end programming";
+export const NavBarOptions_eng = [
+  {
+    id: 1,
+    optionName: "About me",
+    optionDestination: "/AboutMe",
+  },
+  {
+    id: 2,
+    optionName: "Experience",
+    optionDestination: "/Experience",
+  },
+  {
+    id: 3,
+    optionName: "Education",
+    optionDestination: "/Education",
+  },
+  {
+    id: 4,
+    optionName: "Courses",
+    optionDestination: "/Courses",
+  },
+];
 
 export const AboutMeHeadingAndParagraph_eng = {
   heading: "About me",
@@ -9,7 +31,7 @@ export const AboutMeHeadingAndParagraph_eng = {
     "I prefer to think through the functionality before I start coding, so I get the best and cleanest code for the purpose. I like working with Agile methodologies, where everything is planned, and I even like getting a surprise new feature in the middle of a project. I love thinking through how to make my code as easy to update as possible, as all technology keeps growing, getting safer and easier to use, which means all code will eventually be changed.",
     "I am an honest, kind, and creative person, who is good at being impartial and fair. I work well both independently and as a part of a group. I have had a lot of practice explaining code related things to people who know nothing about code or even computers in general.",
     "I have always been good at memorization; I have even memorized a deck of cards in the span of two days. Some numbers even get stuck for life, like this number 0118 999 88199 9119 725 3 from a TV show called “The IT crowd” ask me about it in an interview.",
-    "Outside of coding I enjoy hanging out with friends, painting, baking, and playing board, card and computer games. I also like to take pictures, here are some I took during a school trip to Jordan",
+    "Outside of coding I enjoy hanging out with friends, painting, baking, and playing board, card and computer games. I love nature, animals and helping others. I like to take pictures, here are some I took during a school trip to Jordan (Den Økoligiske Produktionsskole)",
   ],
 };
 
@@ -52,25 +74,58 @@ export const EducationHeadingAndParagraphs_eng = [
     date: "(January 2021 – June 2023)",
     paragraph: [
       "During my Computer Science education, I learned Java, SQL, creating REST APIs using Java Persistence API (JPA) and MYSQL, CI/CD Unit and integration tests, Python, Maven, Docker, Apache Tomcat, the Agile methodologies, Extreme programming (XP) and Git (GitHub) in depth. I have used all of these in many different projects, usually through IntelliJ IDEA but I also used NetBeans a few times. I was also introduced to multiple different frameworks, libraries, tools, and languages. My education was centered around me being able to quickly learn new languages, tools, and technologies and use them in various different projects.",
-      "My exam project in Python was to make Hangman, using the Rick and Morty API and some Movie data in csv format as the guess words. Then I used Pillow, which is a python library to make the UI part of the hangman game. This is the repository of that project https://github.com/Inga-Helgadottir/PythonEksamensProjekt",
-      "To get a better idea of my skills you can also check out the practice project I created before my exam in JPA. This project has the entities/Tables/Schemas OneSide, OtherOneSide, ManySide, OtherManySide, so that I could get all the different relationships one to one, one to many and many to many. This is the repository where I practiced for my exam https://github.com/Inga-Helgadottir/JPA-Notes",
+      "My exam project in Python was to make Hangman, using the Rick and Morty API and some Movie data in csv format as the guess words. Then I used Pillow, which is a python library to make the UI part of the hangman game. This is the repository of that project: ",
+      <a
+        href="https://github.com/Inga-Helgadottir/PythonEksamensProjekt"
+        rel="noreferrer"
+        target="_blank"
+      >
+        GitHub: PythonEksamensProjekt
+      </a>,
+
+      "To get a better idea of my skills you can also check out the practice project I created before my exam in JPA. This project has the entities/Tables/Schemas OneSide, OtherOneSide, ManySide, OtherManySide, so that I could get all the different relationships one to one, one to many and many to many. This is the repository where I practiced for my exam:",
+
+      <a
+        href="https://github.com/Inga-Helgadottir/JPA-Notes"
+        rel="noreferrer"
+        target="_blank"
+      >
+        GitHub: JPA-Notes
+      </a>,
     ],
   },
   {
     location:
-      "I passed the Main course at Roskilde Technical school and the Basic course at NEXT in Copenhagen",
+      "The Main course at Roskilde Technical school and the Basic course at NEXT in Copenhagen",
     position: "Web Developer ",
     date: "(January 2019 – October 2020)",
-    paragraph: [""],
+    paragraph: [
+      "During the Web development education, I learned HTML, CSS, SASS, Bootstrap, JavaScript, Git (GitHub), JSON and how to use REST APIs in depth, using each of them together in many different projects using Visual Studio Code. I was also introduced to multiple different frameworks, libraries, tools, and languages.",
+      "We had a new project each week, making a website for our favorite Movies, Bands, Games and so on. One of the most memorable projects I worked on was the 40’s project. Many different educations were being taught in NEXT, and we were all divided into teams, each team with a front-end developer, UI/UX designer, a few costume designers, a few make-up artists and photographers. Each team was given a decade, and we got the 40’s. We all worked as a team to make a website dedicated to our decade, I worked closely with the UX/UI designer to make our website which sadly is no longer online. To get a better idea of what we learned you can take a look at the practice repository, I created to get ready for the exam: ",
+      <a
+        href="https://github.com/SIngaH/practice"
+        rel="noreferrer"
+        target="_blank"
+      >
+        GitHub: practice
+      </a>,
+    ],
   },
   {
-    location:
-      "I passed English A and Danish A at VUC Lyngby and Math B at KVUC.",
+    location: "English A and Danish A at VUC Lyngby and Math B at KVUC.",
     position: "Danish A, English A and Math B ",
     date: "(December 2017 –December 2018)",
     paragraph: [
-      "During the Web development education, I learned HTML, CSS, SASS, Bootstrap, JavaScript, Git (GitHub), JSON and how to use REST APIs in depth, using each of them together in many different projects using Visual Studio Code. I was also introduced to multiple different frameworks, libraries, tools, and languages.",
-      "We had a new project each week, making a website for our favorite Movies, Bands, Games and so on. One of the most memorable projects I worked on was the 40’s project. Many different educations were being taught in NEXT, and we were all divided into teams, each team with a front-end developer, UI/UX designer, a few costume designers, a few make-up artists and photographers. Each team was given a decade, and we got the 40’s. We all worked as a team to make a website dedicated to our decade, I worked closely with the UX/UI designer to make our website which sadly is no longer online. To get a better idea of what we learned you can take a look at the practice repository, I created to get ready for the exam: https://github.com/SIngaH/practise.",
+      "I took both English A and Danish 0-A, to have it in writing that I am academically fluent in both languages, I took Math B to prepare for the web developer education and because I like Math.",
+    ],
+  },
+  {
+    location: "Den Økologiske Produktionsskole (The Organic Production School)",
+    position: "Photography",
+    date: "(January 2013 - June 2015)",
+    paragraph: [
+      "A production school is where you get paid to learn and then use that knowledge to generate things you can later sell, as I was on the photography line, I sold pictures. The school had many different lines like dance, running a restaurant, woodshop and campaigning.",
+      "The photography line and the campaigning line took a trip to Jordan to interview refugees, when we came home, we worked closely together on a charity event, where we raised money to help them. I created roller banners with QR codes leading to videos and link where you could donate. I also designed the logo they used for everything; I still have the t-shirt.",
     ],
   },
 ];
@@ -83,6 +138,13 @@ export const CoursesHeadingAndParagraphs_eng = [
     paragraph: [
       "ExOpi Talent Academy is a 10-week course where we worked on projects to show what we can do, learn new skills and refine our own, while they also help us find a job. Some examples of my tasks during the course were making Blackjack out of ReactJS and a Python project that looks at links in a CSV file and if they are valid PDF files, they are downloaded and information about each link is saved in another CSV file even if it was not a valid PDF link. For this project I also used multiple threads to cut the download time for all 250 of the links provided from 3 hours to 2 minutes. To see some of these projects you can look at my repository: https://github.com/Inga-Helgadottir/ExopiTalentAcademyProjects/, there are only 2 projects on this one but the other has to remain private as it contains sensitive information.",
       "Jonas Rasmusen is the head of Talent Academy and Innovation at ExOpi and Bina Hjorth Reichstein is their CEO, and they are both ready to give a reference if you want it.",
+      <a
+        href="https://www.exopi.dk/talent-acedemy/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        ExOpi Talent Academy
+      </a>,
     ],
   },
   {
@@ -121,26 +183,3 @@ export const NoPage_eng = {
   heading: "There is no content on this page",
   content: "Back to the start page",
 };
-
-export const NavBarOptions_eng = [
-  {
-    id: 1,
-    optionName: "About me",
-    optionDestination: "/AboutMe",
-  },
-  {
-    id: 2,
-    optionName: "Experience",
-    optionDestination: "/Experience",
-  },
-  {
-    id: 3,
-    optionName: "Education",
-    optionDestination: "/Education",
-  },
-  {
-    id: 4,
-    optionName: "Courses",
-    optionDestination: "/Courses",
-  },
-];

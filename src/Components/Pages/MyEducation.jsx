@@ -3,18 +3,18 @@ import { getText } from "../GetCurrentLanguage";
 import Section from "../PageParts/Section";
 
 const MyEducation = () => {
-  const [Education, setEducationContent] = useState({});
+  const [education, setEducationContent] = useState({});
 
   useEffect(() => {
     localStorage.setItem("chosenNavElement", 3);
-    const EducationHeadingAndParagraphs = getText(
-      "EducationHeadingAndParagraphs"
+    let educationHeadingAndParagraphs = getText(
+      "EducationHeadingAndParagraphs",
     );
 
-    setEducationContent(EducationHeadingAndParagraphs);
+    setEducationContent(educationHeadingAndParagraphs);
   }, []);
 
-  return <Section option={Education} />;
+  return <Section option={education} />;
 };
 
 export default MyEducation;

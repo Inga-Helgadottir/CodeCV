@@ -7,8 +7,8 @@ const MyExperience = () => {
 
   useEffect(() => {
     localStorage.setItem("chosenNavElement", 2);
-    const ExperienceHeadingsAndParagraphs = getText(
-      "ExperienceHeadingsAndParagraphs"
+    let ExperienceHeadingsAndParagraphs = getText(
+      "ExperienceHeadingsAndParagraphs",
     );
 
     setExperience(ExperienceHeadingsAndParagraphs);

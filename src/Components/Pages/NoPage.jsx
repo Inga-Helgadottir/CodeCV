@@ -5,7 +5,7 @@ const NoPage = () => {
   const [noPageText, setNoPageText] = useState("");
 
   useEffect(() => {
-    const NoPageText = getText("NoContentPage");
+    let NoPageText = getText("NoContentPage");
 
     setNoPageText(NoPageText);
   }, []);
