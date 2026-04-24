@@ -14,7 +14,7 @@ export const AboutMeHeadingAndParagraph_dk = {
 
 export const ExperienceHeadingsAndParagraphs_dk = [
   {
-    location: "Furesø kommunes",
+    location: "Furesø kommune",
     position: "Full-stack udvikler",
     date: "(August 2024 – Oktober 2024)",
     paragraph: [
@@ -23,7 +23,7 @@ export const ExperienceHeadingsAndParagraphs_dk = [
     ],
   },
   {
-    location: "Furesø kommunes",
+    location: "Furesø kommune",
     position: "RPA udvikler (Robotbaseret procesautomatisering)",
     date: "(December 2024 – Juni 2025)",
     paragraph: [
