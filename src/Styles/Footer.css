@@ -3,6 +3,7 @@ footer {
   border: var(--navBorder);
   color: var(--ulColor);
   padding: 5px 0;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
