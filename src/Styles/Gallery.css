@@ -9,6 +9,7 @@
 .gallery {
   width: 95%;
   margin: 0 auto 5px auto;
+  text-align: center;
 }
 
 #mainImg {

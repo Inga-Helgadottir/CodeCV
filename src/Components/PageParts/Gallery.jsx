@@ -10,7 +10,7 @@ const Gallery = () => {
   }
 
   const images = importAll(
-    require.context("../../images/Jordan-pics", false, /\.(jpg)$/)
+    require.context("../../images/Jordan-pics", false, /\.(jpg)$/),
   );
 
   function thumbnailClicked(id) {
@@ -40,7 +40,7 @@ const Gallery = () => {
   }
 
   return (
-    <section className="gallery">
+    <div className="gallery">
       <img src={images[currentImgId]} alt="Jordan" id="mainImg" />
       <div className="thumbnails">
         {images.map((img, key) => {
@@ -70,7 +70,7 @@ const Gallery = () => {
           className="arrow"
         ></img>
       </div>
-    </section>
+    </div>
   );
 };
 
