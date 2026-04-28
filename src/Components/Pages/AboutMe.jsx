@@ -1,6 +1,5 @@
 import { getText } from "../GetCurrentLanguage";
 import { useEffect, useState } from "react";
-import Gallery from "../PageParts/Gallery";
 
 const AboutMe = () => {
   const [AboutMe, setAboutMe] = useState({ heading: "", paragraphs: [] });
@@ -25,7 +24,6 @@ const AboutMe = () => {
       {AboutMe.paragraphs?.map((paragraph, key) => {
         return <p key={key}>{paragraph}</p>;
       })}
-      <Gallery />
     </section>
   );
 };

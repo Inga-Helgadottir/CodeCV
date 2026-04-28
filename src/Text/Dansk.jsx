@@ -1,14 +1,36 @@
+import Gallery from "../Components/PageParts/Gallery";
 export const HeaderHeading_dk = "Full-stack udvikler";
 export const HeaderContent_dk =
   "Jeg elsker at arbejde med begge front-end og back-end programmering";
+export const NavBarOptions_dk = [
+  {
+    id: 1,
+    optionName: "Om Mig",
+    optionDestination: "/AboutMe",
+  },
+  {
+    id: 2,
+    optionName: "Erfaring",
+    optionDestination: "/Experience",
+  },
+  {
+    id: 3,
+    optionName: "Uddannelse",
+    optionDestination: "/Education",
+  },
+  {
+    id: 4,
+    optionName: "Kurser",
+    optionDestination: "/Courses",
+  },
+];
 
 export const AboutMeHeadingAndParagraph_dk = {
   heading: "Om Mig",
   paragraphs: [
-    "Jeg er en islænding men blev født I Danmark og har boet her den største delen af mit liv og jeg er her for at blive. Jeg er en uddannet Full-stack udvikler (back-end og front-end udvikler) som elsker at kode. Jeg er en nørd med en passion for at lære nye ting og med kode ved jeg at man løber aldrig tør for nye ting at lære.",
-    "Jeg fortrækker at gennemtænke min funktionalitet før jeg starter med at kode, så jeg kan få den reneste og smarteste kode muligt. Jeg kan bedst lide at arbejde Agilt, hvor alt er planlagt og jeg kan også lide da der kommer nye ændringer, midt i projektet. Jeg elsker at tænke gennem hvordan jeg gør min kode så nem som muligt at ændre i fremtiden, da alt teknologi opdateres regelmæssigt og derfor bliver alt kode ændret på et tidspunkt i fremtiden. Jeg er ærlig, venlig, kreativ og er god til at være upartisk og fair. Jeg arbejder godt alene og som en del af en gruppe. Jeg har meget erfaring med at forklare kode relaterede ting til mennesker som ved lidt eller intet om kode eller computere i det hele taget.",
-    "Jeg har altid været god til at huske; jeg har endda lært et sæt spillekort udenad én gang i løbet af to dage. Nogle tal sidder endda fast for livet, som for eksempel dette nummer 0118 999 88199 9119 725 3 fra et tv-program kaldet 'The IT crowd', som I kan godt spørge om i et interview.",
-    "Udenover kodning kan jeg lide at være sammen med venner, male, bage og at spille bræt-, kort- og computerspil. Jeg elsker naturen, dyr og at hjælpe andre, jeg kan også lide at tage billeder, her er nogle af mine billeder som jeg tog under en skole tur til Jordan (Den Økoligiske Produktionsskole)",
+    "Jeg er en uddannet Full-stack udvikler (back-end og front-end udvikler) som elsker at kode. Jeg er en nørd med en passion for at lære nye ting og med kode ved jeg at man løber aldrig tør for nye ting at lære. Jeg fortrækker at gennemtænke min funktionalitet før jeg starter med at kode, så jeg kan få den reneste og smarteste kode muligt. Min fokus er altid at gøre det nemmest muligt for brugeren at forstå og bruge løsningen, samt gør koden nem at opdatere i fremtiden da flere features bliver tilføjet eller da bedre teknologier kommer frem. Jeg kan bedst lide at arbejde Agilt, hvor alt er planlagt og jeg kan også lide da der kommer nye ændringer, midt i projektet. Hos Furesø kommune  arbejdede jeg med folk fra mange forskellig e afdelinger for at lave værktøj for at gøre deres hverdage nemmere. De fortalte mig hvad de manglede og jeg fandt ude af hvordan jeg kunne lave en løsning til dem.",
+    "Jeg er ærlig, venlig, kreativ og er god til at være upartisk og fair. Jeg arbejder godt alene og som en del af en gruppe. Jeg har meget erfaring med at forklare kode relaterede ting til mennesker som ved lidt eller intet om kode eller computere i det hele taget.",
+    "Jeg har altid været god til at huske; jeg har endda lært et sæt spillekort udenad én gang i løbet af to dage. Nogle tal sidder endda fast for livet, som for eksempel dette nummer 0118 999 88199 9119 725 3 fra et tv-program kaldet 'The IT crowd', som I kan godt spørge om i et interview. Udenover kodning kan jeg lide at være sammen med venner, male, tage billeder, bage og at spille alle slags spil. Jeg elsker naturen, dyr og at hjælpe andre.",
   ],
 };
 
@@ -100,6 +122,8 @@ export const EducationHeadingAndParagraphs_dk = [
     paragraph: [
       "En produktionsskole er et sted, hvor man får penge for at lære og derefter bruger den viden til at generere ting, man senere kan sælge, jeg gik på fotograflinjen så selvfølgelig solgte jeg billeder. Skolen havde mange forskellige linjer for eksempel dans, restaurantdrift, træværksted og kampagne.",
       "Fotograflinjen og kampagnelinjen rejste til Jordan for at interviewe flygtninge, og da vi kom hjem, arbejdede vi tæt sammen om et velgørenhedsarrangement samt Ung Aktion, hvor vi indsamlede penge for at hjælpe dem. Jeg lavede roll-ups med billeder, QR-koder som ledte til videoer og links, hvor man kunne donere. Jeg designede også arrangementets logo, jeg har stadig t-shirten.",
+      "Her er nogle af de billeder jeg tog under den rejse og solgt for at hjælpe de flygtninge. ",
+      <Gallery />,
     ],
   },
 ];
@@ -127,6 +151,13 @@ export const CoursesHeadingAndParagraphs_dk = [
     date: "(December 2023 – Januar 2024)",
     paragraph: [
       "Her lærte jeg om komponenterne i en computer sammen med mulige tilføjelser og opdatering og udskiftning af disse komponenter. Håndtering af Windows-, MacOS- og Linux-enheder gennem indstillinger, kontrolpanel og kommandolinjegrænsefladen. Trådløse sikkerhedsimplementeringer, metoder til forebyggelse og fjernelse af malware, mobile sikkerhedsløsninger, bedste praksis for dokumentation, privatliv, licens- og politikkoncepter, korrekte kommunikationsteknikker og professionalisme, scriptteknikker, fjernadgangsmetoder og meget mere.",
+      <a
+        href="https://nyledige.dk/kurser/systemadministration-it-sikkerhed-og-certificeringer/comptia/it-sikkerhedskursus/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        CompTIA Security+
+      </a>,
     ],
   },
   {
@@ -157,26 +188,3 @@ export const NoPage_dk = {
   heading: "Der er intet på denne side",
   content: "Tilbage til start siden",
 };
-
-export const NavBarOptions_dk = [
-  {
-    id: 1,
-    optionName: "Om Mig",
-    optionDestination: "/AboutMe",
-  },
-  {
-    id: 2,
-    optionName: "Erfaring",
-    optionDestination: "/Experience",
-  },
-  {
-    id: 3,
-    optionName: "Uddannelse",
-    optionDestination: "/Education",
-  },
-  {
-    id: 4,
-    optionName: "Mine kurser",
-    optionDestination: "/Courses",
-  },
-];

@@ -1,3 +1,4 @@
+import Gallery from "../Components/PageParts/Gallery";
 export const HeaderHeading_eng = "Full-stack developer";
 export const HeaderContent_eng =
   "I love working with both front-end and back-end programming";
@@ -27,11 +28,9 @@ export const NavBarOptions_eng = [
 export const AboutMeHeadingAndParagraph_eng = {
   heading: "About me",
   paragraphs: [
-    "I am an educated Full-Stack developer (back-end and front-end developer) who loves coding. I am a nerd at heart with a passion for coding and learning new things and I know when you work with code, you will never run out of new things to learn. My main goal when coding is to make it easy for the user to understand without having to read any documentation to understand how to use the application. I also like to make my code easy to update in the future, when new features need to be added or when new and better technologies become available. ",
-    "I prefer to think through the functionality before I start coding, so I get the best and cleanest code for the purpose. I like working with Agile methodologies, where everything is planned, and I even like getting a surprise new feature in the middle of a project. I love thinking through how to make my code as easy to update as possible, as all technology keeps growing, getting safer and easier to use, which means all code will eventually be changed.",
-    "I am an honest, kind, and creative person, who is good at being impartial and fair. I work well both independently and as a part of a group. I have had a lot of practice explaining code related things to people who know nothing about code or even computers in general.",
-    "I have always been good at memorization; I have even memorized a deck of cards in the span of two days. Some numbers even get stuck for life, like this number 0118 999 88199 9119 725 3 from a TV show called “The IT crowd” ask me about it in an interview.",
-    "Outside of coding I enjoy hanging out with friends, painting, baking, and playing board, card and computer games. I love nature, animals and helping others. I like to take pictures, here are some I took during a school trip to Jordan (Den Økoligiske Produktionsskole)",
+    "I am an educated Full-Stack developer (back-end and front-end developer) who loves coding. I am a nerd at heart with a passion for coding and learning new things and I know when you work with code, you will never run out of new things to learn. My main goal when coding is to make it easy for the user to understand how to use without having to read any documentation. I also like to make my code easy to read and update in the future, when new features need to be added or when new and better technologies become available. ",
+    "During my time at Furesø commune I worked with people from many different positions to create tools for them. They told me what they needed, and I figured out how to provide that. I enjoy using my skills to solve real-life problems. I prefer to think through the functionality before I start coding, so I get the best and cleanest code for the purpose. I like working with Agile methodologies, where everything is planned, and I even like getting a surprise new feature or alteration that needs to be added in the middle of a project. ",
+    "I have always been good at memorization; I have even memorized a deck of cards in the span of two days a few years ago. Some numbers even get stuck for life, like this number 0118 999 88199 9119 725 3 from a TV show called “The IT crowd” ask me about it in an interview and I will recite it from memory. I am an honest, kind, and creative person, who is good at being impartial and fair. I work well both independently and as a part of a group. I have had a lot of practice explaining code related things to people who know nothing about code or even computers in general. Outside of coding I enjoy hanging out with friends, painting, taking pictures, baking, solving puzzles and playing all kinds of games. I love nature, animals and helping others. ",
   ],
 };
 
@@ -73,7 +72,7 @@ export const EducationHeadingAndParagraphs_eng = [
     position: "Computer science",
     date: "(January 2021 – June 2023)",
     paragraph: [
-      "During my Computer Science education, I learned Java, SQL, creating REST APIs using Java Persistence API (JPA) and MYSQL, CI/CD Unit and integration tests, Python, Maven, Docker, Apache Tomcat, the Agile methodologies, Extreme programming (XP) and Git (GitHub) in depth. I have used all of these in many different projects, usually through IntelliJ IDEA but I also used NetBeans a few times. I was also introduced to multiple different frameworks, libraries, tools, and languages. My education was centered around me being able to quickly learn new languages, tools, and technologies and use them in various different projects.",
+      "During my Computer Science education, I learned Java, SQL, creating REST APIs using Java Persistence API (JPA) and MYSQL, CI/CD Unit and integration tests, Python, Maven, Docker, Apache Tomcat, the Agile methodologies, Extreme programming (XP) and Git (GitHub) in depth. I have used all of these in many different projects, usually through IntelliJ IDEA but I also used NetBeans a few times. I was also introduced to multiple different frameworks, libraries, tools, and languages. My education was centred around me being able to quickly learn new languages, tools, and technologies and use them in various projects.",
       "My exam project in Python was to make Hangman, using the Rick and Morty API and some Movie data in csv format as the guess words. Then I used Pillow, which is a python library to make the UI part of the hangman game. This is the repository of that project: ",
       <a
         href="https://github.com/Inga-Helgadottir/PythonEksamensProjekt"
@@ -101,7 +100,7 @@ export const EducationHeadingAndParagraphs_eng = [
     date: "(January 2019 – October 2020)",
     paragraph: [
       "During the Web development education, I learned HTML, CSS, SASS, Bootstrap, JavaScript, Git (GitHub), JSON and how to use REST APIs in depth, using each of them together in many different projects using Visual Studio Code. I was also introduced to multiple different frameworks, libraries, tools, and languages.",
-      "We had a new project each week, making a website for our favorite Movies, Bands, Games and so on. One of the most memorable projects I worked on was the 40’s project. Many different educations were being taught in NEXT, and we were all divided into teams, each team with a front-end developer, UI/UX designer, a few costume designers, a few make-up artists and photographers. Each team was given a decade, and we got the 40’s. We all worked as a team to make a website dedicated to our decade, I worked closely with the UX/UI designer to make our website which sadly is no longer online. To get a better idea of what we learned you can take a look at the practice repository, I created to get ready for the exam: ",
+      "We had a new project each week, making a website for our favourite Movies, Bands, Games and so on. One of the most memorable projects I worked on was the 40’s project. Many different educations were being taught in NEXT, and we were all divided into teams, each team with a front-end developer, UI/UX designer, a few costume designers, a few make-up artists and photographers. Each team was given a decade, and we got the 40’s. We all worked as a team to make a website dedicated to our decade; I worked closely with the UX/UI designer to make our website which sadly is no longer online. To get a better idea of what we learned you can look at the practice repository, I created to get ready for the exam: ",
       <a
         href="https://github.com/SIngaH/practice"
         rel="noreferrer"
@@ -125,7 +124,9 @@ export const EducationHeadingAndParagraphs_eng = [
     date: "(January 2013 - June 2015)",
     paragraph: [
       "A production school is where you get paid to learn and then use that knowledge to generate things you can later sell, as I was on the photography line, I sold pictures. The school had many different lines like dance, running a restaurant, woodshop and campaigning.",
-      "The photography line and the campaigning line took a trip to Jordan to interview refugees, when we came home, we worked closely together on a charity event, where we raised money to help them. I created roller banners with QR codes leading to videos and link where you could donate. I also designed the logo they used for everything; I still have the t-shirt.",
+      "The photography line and the campaigning line took a trip to Jordan to interview Syrian refugees, when we came home, we worked closely together on a charity event, where we raised money to help them. I created roller banners with QR codes leading to videos and link where you could donate. I also designed the logo they used for everything; I still have the t-shirt.",
+      "Here are some of the pictures I took on this trip and sold to help those refugees.",
+      <Gallery />,
     ],
   },
 ];
@@ -136,7 +137,7 @@ export const CoursesHeadingAndParagraphs_eng = [
     position: "",
     date: "(April 2024 – June 2024)",
     paragraph: [
-      "ExOpi Talent Academy is a 10-week course where we worked on projects to show what we can do, learn new skills and refine our own, while they also help us find a job. Some examples of my tasks during the course were making Blackjack out of ReactJS and a Python project that looks at links in a CSV file and if they are valid PDF files, they are downloaded and information about each link is saved in another CSV file even if it was not a valid PDF link. For this project I also used multiple threads to cut the download time for all 250 of the links provided from 3 hours to 2 minutes. To see some of these projects you can look at my repository: https://github.com/Inga-Helgadottir/ExopiTalentAcademyProjects/, there are only 2 projects on this one but the other has to remain private as it contains sensitive information.",
+      "ExOpi Talent Academy is a 10-week course where we worked on projects to show what we can do, learn new skills and refine our own, while they also help us find a job. Some examples of my tasks during the course were making Blackjack out of ReactJS and a Python project that looks at links in a CSV file and if they are valid PDF files, they are downloaded and information about each link is saved in another CSV file even if it was not a valid PDF link. For this project I also used multiple threads to cut the download time for all 250 of the links provided from 3 hours to 2 minutes. To see some of these projects you can look at my repository: https://github.com/Inga-Helgadottir/ExopiTalentAcademyProjects/, there are only 2 projects on this one but the other must remain private as it contains sensitive information.",
       "Jonas Rasmusen is the head of Talent Academy and Innovation at ExOpi and Bina Hjorth Reichstein is their CEO, and they are both ready to give a reference if you want it.",
       <a
         href="https://www.exopi.dk/talent-acedemy/"
@@ -153,6 +154,13 @@ export const CoursesHeadingAndParagraphs_eng = [
     date: "(December 2023 – January 2024)",
     paragraph: [
       "Here I learned about the components of a computer along with possible add-ons and update and replacement of those components. I also learned preventative measures to ensure the safety of a device, along with the detection and removal of malware. Managing Windows, MacOS and Linux devices, through settings, control panel and the command line interface. Wireless security implementations, mobile security solutions, best documentation practices, privacy, licensing & policy concepts, proper communication techniques and professionalism, scripting techniques, remote access methods and a lot more.",
+      <a
+        href="https://nyledige.dk/kurser/systemadministration-it-sikkerhed-og-certificeringer/comptia/it-sikkerhedskursus/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        CompTIA Security+
+      </a>,
     ],
   },
   {
