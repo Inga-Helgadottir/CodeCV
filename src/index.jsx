@@ -22,7 +22,7 @@ root.render(
         <Route path="*" element={<NoPage />} />
       </Route>
     </Routes>
-  </BrowserRouter>
+  </BrowserRouter>,
 );
 
 reportWebVitals();

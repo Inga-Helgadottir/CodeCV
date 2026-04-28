@@ -5,6 +5,7 @@ import Footer from "./Components/PageParts/Footer";
 import Header from "./Components/PageParts/Header";
 import NavBar from "./Components/PageParts/NavBar";
 import { useEffect } from "react";
+import BackToTheTopComponent from "./Components/PageParts/BackToTheTopComponent";
 
 localStorage.setItem("chosenNavElement", 1);
 
@@ -20,9 +21,10 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="App" id="top">
       <Header />
       <NavBar />
+      <BackToTheTopComponent />
       <Footer />
     </div>
   );
