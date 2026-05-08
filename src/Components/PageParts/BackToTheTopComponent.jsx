@@ -1,12 +1,20 @@
 import React from "react";
-import arrow from "../../images/arrow.svg";
 import "../../Styles/BackToTheTopComponent.css";
+import Arrow from "./Arrow";
+import { getText } from "../../Components/GetCurrentLanguage";
+import { useState, useEffect } from "react";
 
-const BackToTheTopComponent = () => {
+const BackToTheTopComponent = (currentLanguage) => {
+  const [text, setText] = useState();
+
+  useEffect(() => {
+    setText(getText("BackToTheTopComponentText"));
+  }, [currentLanguage]);
+
   return (
     <a id="backToTheTopArrowButton" href="#top">
-      Back to the top
-      <img src={arrow} alt="back to the top arrow" id="backToTheTopArrow"></img>
+      {text}
+      <Arrow props={{ arrow: "Top" }} />
     </a>
   );
 };
