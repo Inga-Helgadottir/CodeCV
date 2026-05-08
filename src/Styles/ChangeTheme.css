@@ -1,0 +1,22 @@
+.themeChangeContainer {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.darkThemeButton {
+  background-color: var(--DarkModeButtonBackgroundColor);
+  border: 2px solid var(--DarkModeButtonColor);
+  color: var(--DarkModeButtonColor);
+  text-align: center;
+  margin-right: 10px;
+  padding: 7px;
+}
+
+.lightThemeButton {
+  background-color: var(--LightModeButtonBackgroundColor);
+  border: 2px solid var(--LightModeButtonColor);
+  color: var(--LightModeButtonColor);
+  text-align: center;
+  padding: 7px;
+}

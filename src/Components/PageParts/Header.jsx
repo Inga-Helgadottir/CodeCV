@@ -2,22 +2,18 @@ import "../../Styles/Header.css";
 import "../../Styles/ColorVariables.css";
 import imgOfMe from "../../images/newCVpic.jpg";
 import UpdateLanguage from "../../Components/PageParts/UpdateLanguage";
-import { getText } from "../GetCurrentLanguage";
+import { getText } from "../../Components/GetCurrentLanguage";
 import { useEffect, useState } from "react";
+import ChangeTheme from "../PageParts/ChangeTheme";
 
-const Header = () => {
+const Header = ({ currentLanguage, setCurrentLanguage }) => {
   const [HeaderHeading, setHeaderHeading] = useState("");
   const [HeaderContent, setHeaderContent] = useState("");
 
   useEffect(() => {
     setHeaderHeading(getText("HeaderHeading"));
     setHeaderContent(getText("HeaderContent"));
-  }, []);
-
-  const updateLanguage = (updateTo) => {
-    localStorage.setItem("CurrentLanguage", updateTo);
-    window.location.reload();
-  };
+  }, [currentLanguage]);
 
   return (
     <header>
@@ -26,8 +22,12 @@ const Header = () => {
         <h1 className="HeaderText">Inga Helgadottir</h1>
         <h2 className="HeaderText">{HeaderHeading}</h2>
         <p className="HeaderText">{HeaderContent}</p>
+        <ChangeTheme currentLanguage={currentLanguage} />
       </section>
-      <UpdateLanguage updateLanguage={updateLanguage} />
+      <UpdateLanguage
+        currentLanguage={currentLanguage}
+        setCurrentLanguage={setCurrentLanguage}
+      />
     </header>
   );
 };
