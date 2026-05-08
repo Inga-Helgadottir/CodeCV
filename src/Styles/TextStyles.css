@@ -16,8 +16,6 @@ p {
 
 ul {
   font-size: 2vw;
-  /* font-size: 30px; */
-  color: var(--ulColor);
 }
 
 h1,
@@ -30,7 +28,7 @@ h1,
 h2,
 h3,
 p {
-  color: var(--maintextColor);
+  color: var(--primaryTextColor);
   margin: 0;
   padding: 20px;
 }

@@ -1,21 +1,58 @@
 :root {
-  --generalBG: #e3eaff;
-  --headerTextColor: white;
-  --headerBackUpBackground-image: linear-gradient(
+  /* ligth mode 
+  --headerBackgroundColorGradient: linear-gradient(to right, #2ec4b6, #3abeff);
+
+  --primaryTextColor: #0f172a;
+  --primaryBackgroundColor: #f8fafc;
+  --secondaryBackgroundColor: #f8fafc;
+
+  --navigationalBackgroundColor: #3abeff;
+  --navAndFooterLinkAndBorderColor: #0f172a;
+  --navAndFooterLinkHoverColor: #14b8a6;
+  --navLinkChosenColor: #00ffe2;
+
+  --sectionLinkColor: #3abeff;
+  --sectionLinkHoverColor: #14b8a6;
+
+  --galleryArrowColor: #0f172a;
+  --galleryArrowHoverColor: #0b766a;
+
+  --backToTheTopArrowTextAndBorderColor: #0f172a;
+  --backToTheTopArrowTextAndBorderColorHover: #3abeff;
+  --backToTheTopBackgroundColor: #3abeff;
+  --backToTheTopBackgroundColorHover: #0f172a;*/
+
+  /* dark mode */
+  --headerBackgroundColorGradient: linear-gradient(
     to right,
     #5e1180,
     #063b8c,
     #06777a
   );
-  --headerAndFooterBG: #415cb4;
-  --headerBackground-color: #5e1180;
-  --navUlText-shadow: 5px 5px 5px black;
 
-  --navBackground-color: #5e1180;
-  --navBorder: 5px solid black;
-  --liColor: white;
-  --uliHoverChosenColor: red;
+  --primaryTextColor: #f8fafc;
 
-  --maintextColor: black;
-  --mainBackground-color: rgb(209, 208, 234);
+  --primaryBackgroundColor: #233765;
+  --secondaryBackgroundColor: #0f172a;
+
+  --LightModeButtonColor: #0f172a;
+  --LightModeButtonBackgroundColor: #f8fafc;
+  --DarkModeButtonColor: #f8fafc;
+  --DarkModeButtonBackgroundColor: #0f172a;
+
+  --navigationalBackgroundColor: #3abeff;
+  --navAndFooterLinkAndBorderColor: #0f172a;
+  --navAndFooterLinkHoverColor: #14b8a6;
+  --navLinkChosenColor: #00ffe2;
+
+  --sectionLinkColor: #3abeff;
+  --sectionLinkHoverColor: #14b8a6;
+
+  --galleryArrowColor: #00ffe2;
+  --galleryArrowColorHover: #3abeff;
+
+  --backToTheTopArrowTextAndBorderColor: #3abeff;
+  --backToTheTopArrowTextAndBorderColorHover: #0f172a;
+  --backToTheTopBackgroundColor: #0f172a;
+  --backToTheTopBackgroundColorHover: #3abeff;
 }

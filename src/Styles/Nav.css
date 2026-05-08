@@ -1,6 +1,4 @@
 nav {
-  background-color: var(--navBackground-color);
-  border: var(--navBorder);
   padding: 5px 0;
 }
 
@@ -10,18 +8,12 @@ ul {
   justify-content: space-evenly;
   list-style-type: none;
   text-align: center;
-  text-shadow: var(--navUlText-shadow);
+  font-weight: bold;
   padding: 5px 0;
 }
 
-.li {
-  color: var(--liColor);
-  text-decoration: none;
-}
-
-.li:hover,
 #chosen {
-  color: var(--uliHoverChosenColor);
+  color: var(--navLinkChosenColor);
   text-decoration: underline;
 }
 

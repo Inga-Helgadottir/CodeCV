@@ -1,9 +1,10 @@
 import "../../Styles/Nav.css";
+import "../../Styles/NavAndFooter.css";
 import { useEffect, useState } from "react";
 import { getText } from "../GetCurrentLanguage";
 import { Outlet, Link } from "react-router-dom";
 
-const NavBar = () => {
+const NavBar = (currentLanguage) => {
   const [NavBarOptions, setNavBarOptions] = useState([{}]);
   const [chosenOption, setChosenOption] = useState();
 
@@ -15,15 +16,15 @@ const NavBar = () => {
     } else {
       setChosenOption(currentChosenNavBarOption);
     }
-  }, []);
+  }, [currentLanguage]);
 
-  function giveOrTakeChosenId(e, id) {
+  const giveOrTakeChosenId = (e, id) => {
     let currentElementId = e.id;
     if (currentElementId === "") {
       setChosenOption(id);
       localStorage.setItem("chosenNavElement", id);
     }
-  }
+  };
 
   return (
     <div>

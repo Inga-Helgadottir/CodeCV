@@ -1,4 +1,5 @@
 import "../../Styles/Sections.css";
+
 const Section = (element) => {
   return (
     <div>

@@ -1,5 +1,5 @@
 .section {
-  border: double 2px black;
+  border: double 2px var(--primaryTextColor);
   margin: 10px 50px;
 }
 

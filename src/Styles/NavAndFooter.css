@@ -1,0 +1,19 @@
+nav,
+footer {
+  background-color: var(--navigationalBackgroundColor);
+  border: solid 3px var(--navAndFooterLinkAndBorderColor);
+}
+
+nav a,
+nav h3,
+footer a,
+footer h3 {
+  color: var(--navAndFooterLinkAndBorderColor);
+  text-decoration: none;
+  list-style-type: none;
+}
+
+nav a:hover,
+footer a:hover {
+  color: var(--navAndFooterLinkHoverColor);
+}

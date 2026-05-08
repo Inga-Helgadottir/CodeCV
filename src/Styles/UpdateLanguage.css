@@ -7,7 +7,16 @@
 }
 
 .flag {
-  height: 60px;
+  height: 55px;
+  box-shadow: 10px 10px var(--navAndFooterLinkAndBorderColor);
+}
+
+.flag:hover {
+  box-shadow: 10px 10px var(--navAndFooterLinkHoverColor);
+}
+
+#currentLanguage {
+  box-shadow: 10px 10px var(--navLinkChosenColor);
 }
 
 /* Responsive */

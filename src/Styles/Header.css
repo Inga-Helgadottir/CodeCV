@@ -1,6 +1,6 @@
 header {
-  background-color: var(--headerBackUpBackground-color);
-  background-image: var(--headerBackUpBackground-image);
+  background-color: var(--headerBackgroundColorGradient);
+  background-image: var(--headerBackgroundColorGradient);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -16,8 +16,7 @@ header {
 }
 
 .HeaderText {
-  text-shadow: var(--headerText-shadow);
-  color: var(--headerTextColor);
+  color: var(--primaryTextColor);
   padding: 10px 0;
   margin: 0;
   display: flex;

@@ -1,18 +1,10 @@
 footer {
-  background-color: var(--navBackground-color);
-  border: var(--navBorder);
-  color: var(--ulColor);
   padding: 5px 0;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-}
-
-footer a,
-footer h3 {
-  list-style-type: none;
-  color: var(--liColor);
+  margin-bottom: 3px;
 }
 
 .footerDiv {

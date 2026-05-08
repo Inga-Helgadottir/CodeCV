@@ -1,9 +1,19 @@
+import { useState, useEffect } from "react";
 import "../../Styles/Footer.css";
+import "../../Styles/NavAndFooter.css";
+import { getText } from "../../Components/GetCurrentLanguage";
 
-const Footer = () => {
+const Footer = (currentLanguage) => {
+  const [heading, setHeading] = useState("");
+
+  useEffect(() => {
+    setHeading(getText("FooterHeading"));
+  }, [currentLanguage]);
+
   return (
     <footer>
-      <h3>Kontakt oplysninger</h3>
+      <h3>{heading}</h3>
+
       <div className="footerDiv">
         <a
           href="mailto:s.inga.helgadottir95@gmail.com"
