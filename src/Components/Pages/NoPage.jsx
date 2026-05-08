@@ -6,7 +6,6 @@ const NoPage = (currentLanguage) => {
 
   useEffect(() => {
     let NoPageText = getText("NoContentPage");
-
     setNoPageText(NoPageText);
   }, [currentLanguage]);
 

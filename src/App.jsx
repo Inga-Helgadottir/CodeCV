@@ -16,6 +16,9 @@ import NoPage from "./Components/Pages/NoPage";
 
 const App = () => {
   const [currentLanguage, setCurrentLanguage] = useState(getCurrentLanguage());
+  const [currentPage, setCurrentPage] = useState(
+    localStorage.getItem("chosenNavElement") || 1,
+  );
 
   return (
     <BrowserRouter>
@@ -24,28 +27,53 @@ const App = () => {
           currentLanguage={currentLanguage}
           setCurrentLanguage={setCurrentLanguage}
         />
-        <NavBar currentLanguage={currentLanguage} />
+        <NavBar currentLanguage={currentLanguage} currentPage={currentPage} />
 
         <Routes>
           <Route
             index
-            element={<AboutMe currentLanguage={currentLanguage} />}
+            element={
+              <AboutMe
+                currentLanguage={currentLanguage}
+                setCurrentPage={setCurrentPage}
+              />
+            }
           />
           <Route
             path="AboutMe"
-            element={<AboutMe currentLanguage={currentLanguage} />}
+            element={
+              <AboutMe
+                currentLanguage={currentLanguage}
+                setCurrentPage={setCurrentPage}
+              />
+            }
           />
           <Route
             path="Courses"
-            element={<MyCourses currentLanguage={currentLanguage} />}
+            element={
+              <MyCourses
+                currentLanguage={currentLanguage}
+                setCurrentPage={setCurrentPage}
+              />
+            }
           />
           <Route
             path="Education"
-            element={<MyEducation currentLanguage={currentLanguage} />}
+            element={
+              <MyEducation
+                currentLanguage={currentLanguage}
+                setCurrentPage={setCurrentPage}
+              />
+            }
           />
           <Route
             path="Experience"
-            element={<MyExperience currentLanguage={currentLanguage} />}
+            element={
+              <MyExperience
+                currentLanguage={currentLanguage}
+                setCurrentPage={setCurrentPage}
+              />
+            }
           />
           <Route
             path="*"

@@ -2,11 +2,12 @@ import { getText } from "../GetCurrentLanguage";
 import { useEffect, useState } from "react";
 import "../../Styles/AboutMe.css";
 
-const AboutMe = (currentLanguage) => {
+const AboutMe = ({ currentLanguage, setCurrentPage }) => {
   const [aboutMe, setAboutMe] = useState({ heading: "", paragraphs: [] });
 
   useEffect(() => {
     localStorage.setItem("chosenNavElement", 1);
+    setCurrentPage(1);
 
     async function loadText() {
       let AboutMeHeadingAndParagraph = getText("AboutMeHeadingAndParagraph");
@@ -16,7 +17,7 @@ const AboutMe = (currentLanguage) => {
       });
     }
     loadText();
-  }, [currentLanguage]);
+  }, [currentLanguage, setCurrentPage]);
 
   return (
     <section className="section aboutMeSection">
