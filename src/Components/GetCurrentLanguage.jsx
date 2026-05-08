@@ -1,21 +1,9 @@
 import * as Dansk from "../Text/Dansk";
 import * as English from "../Text/English";
 
-let CurrentLanguage = "dk";
-
 export const getCurrentLanguage = () => {
-  let isWhichLanguage = localStorage.getItem("CurrentLanguage");
-
-  if (isWhichLanguage === "") {
-    localStorage.setItem("CurrentLanguage", "dk");
-  } else {
-    if (isWhichLanguage === "eng") {
-      CurrentLanguage = "eng";
-    } else {
-      CurrentLanguage = "dk";
-    }
-  }
-  return CurrentLanguage;
+  const currentLanguage = localStorage.getItem("CurrentLanguage");
+  return currentLanguage === "eng" ? "eng" : "dk";
 };
 
 export const getText = (whichText) => {
@@ -38,6 +26,12 @@ export const getText = (whichText) => {
         return English.CoursesHeadingAndParagraphs_eng;
       case "NoContentPage":
         return English.NoPage_eng;
+      case "FooterHeading":
+        return English.FooterHeading_eng;
+      case "BackToTheTopComponentText":
+        return English.BackToTheTopComponentText_eng;
+      case "LightDarkMode":
+        return English.LightDarkMode_eng;
       default:
         return "fejl";
     }
@@ -59,6 +53,12 @@ export const getText = (whichText) => {
         return Dansk.CoursesHeadingAndParagraphs_dk;
       case "NoContentPage":
         return Dansk.NoPage_dk;
+      case "FooterHeading":
+        return Dansk.FooterHeading_dk;
+      case "BackToTheTopComponentText":
+        return Dansk.BackToTheTopComponentText_dk;
+      case "LightDarkMode":
+        return Dansk.LightDarkMode_dk;
       default:
         return "fejl";
     }

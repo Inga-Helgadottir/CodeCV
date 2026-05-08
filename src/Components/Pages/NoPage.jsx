@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import { getText } from "../GetCurrentLanguage";
 
-const NoPage = () => {
+const NoPage = (currentLanguage) => {
   const [noPageText, setNoPageText] = useState("");
 
   useEffect(() => {
     let NoPageText = getText("NoContentPage");
 
     setNoPageText(NoPageText);
-  }, []);
+  }, [currentLanguage]);
 
   return (
     <div className="container">
