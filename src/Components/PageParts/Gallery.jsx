@@ -34,11 +34,6 @@ const Gallery = () => {
     }
   };
 
-  const arrowPressed = (whichArrow) => {
-    let mainImg = document.getElementById("mainImg");
-    mainImg.src = images[nextId(whichArrow)];
-  };
-
   return (
     <div className="gallery">
       <img src={images[currentImgId]} alt="Jordan" id="mainImg" />
@@ -57,8 +52,8 @@ const Gallery = () => {
         })}
       </div>
       <div className="arrows">
-        <Arrow onClick={() => arrowPressed("left")} />
-        <Arrow onClick={() => arrowPressed("right")} />
+        <Arrow onClick={() => nextId("left")} />
+        <Arrow onClick={() => nextId("right")} />
       </div>
     </div>
   );
