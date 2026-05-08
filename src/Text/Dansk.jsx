@@ -121,8 +121,8 @@ export const EducationHeadingAndParagraphs_dk = [
     date: "(Januar 2013 - Juni 2015)",
     paragraph: [
       "En produktionsskole er et sted, hvor man får penge for at lære og derefter bruger den viden til at generere ting, man senere kan sælge, jeg gik på fotograflinjen så selvfølgelig solgte jeg billeder. Skolen havde mange forskellige linjer for eksempel dans, restaurantdrift, træværksted og kampagne.",
-      "Fotograflinjen og kampagnelinjen rejste til Jordan for at interviewe flygtninge, og da vi kom hjem, arbejdede vi tæt sammen om et velgørenhedsarrangement samt Ung Aktion, hvor vi indsamlede penge for at hjælpe dem. Jeg lavede roll-ups med billeder, QR-koder som ledte til videoer og links, hvor man kunne donere. Jeg designede også arrangementets logo, jeg har stadig t-shirten.",
-      "Her er nogle af de billeder jeg tog under den rejse og solgt for at hjælpe de flygtninge. ",
+      "Fotograflinjen og kampagnelinjen rejste til Jordan for at interviewe Syriske flygtninge, og da vi kom hjem, arbejdede vi tæt sammen om et velgørenhedsarrangement samt Ung Aktion, hvor vi indsamlede penge for at hjælpe dem. Jeg lavede roll-ups med billeder, QR-koder som ledte til videoer og links, hvor man kunne donere. Jeg designede også arrangementets logo, jeg har stadig t-shirten.",
+      "Her er nogle af de billeder jeg tog under den rejse og solgt for at hjælpe Syriske flygtninge. ",
       <Gallery />,
     ],
   },
