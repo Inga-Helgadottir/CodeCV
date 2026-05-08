@@ -188,3 +188,9 @@ export const NoPage_dk = {
   heading: "Der er intet på denne side",
   content: "Tilbage til start siden",
 };
+
+export const FooterHeading_dk = "Kontaktoplysninger";
+
+export const BackToTheTopComponentText_dk = "Tilbage til toppen";
+
+export const LightDarkMode_dk = ["Lys tilstand", "Mørk tilstand"];

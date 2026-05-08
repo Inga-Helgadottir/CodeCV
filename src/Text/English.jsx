@@ -191,3 +191,9 @@ export const NoPage_eng = {
   heading: "There is no content on this page",
   content: "Back to the start page",
 };
+
+export const FooterHeading_eng = "Contact information";
+
+export const BackToTheTopComponentText_eng = "Back to the top";
+
+export const LightDarkMode_eng = ["Light mode", "Dark mode"];
