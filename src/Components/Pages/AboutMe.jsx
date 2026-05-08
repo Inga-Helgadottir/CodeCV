@@ -1,5 +1,6 @@
 import { getText } from "../GetCurrentLanguage";
 import { useEffect, useState } from "react";
+import "../../Styles/AboutMe.css";
 
 const AboutMe = (currentLanguage) => {
   const [aboutMe, setAboutMe] = useState({ heading: "", paragraphs: [] });
@@ -18,8 +19,8 @@ const AboutMe = (currentLanguage) => {
   }, [currentLanguage]);
 
   return (
-    <section className="section">
-      <h3>{aboutMe.heading}</h3>
+    <section className="section aboutMeSection">
+      <h3 id="aboutMeHeading">{aboutMe.heading}</h3>
       {aboutMe.paragraphs?.map((paragraph, key) => {
         return <p key={key}>{paragraph}</p>;
       })}

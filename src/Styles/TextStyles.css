@@ -29,8 +29,6 @@ h2,
 h3,
 p {
   color: var(--primaryTextColor);
-  margin: 0;
-  padding: 20px;
 }
 
 /* Responsive */
