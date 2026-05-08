@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import { getText } from "../GetCurrentLanguage";
 import Section from "../PageParts/Section";
+import { getCurrentLanguage } from "../GetCurrentLanguage";
 
-const MyEducation = () => {
+const MyEducation = (currentLanguage) => {
   const [education, setEducationContent] = useState({});
 
   useEffect(() => {
@@ -12,7 +13,8 @@ const MyEducation = () => {
     );
 
     setEducationContent(educationHeadingAndParagraphs);
-  }, []);
+    getCurrentLanguage();
+  }, [currentLanguage]);
 
   return <Section option={education} />;
 };

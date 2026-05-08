@@ -1,27 +1,26 @@
 import { getText } from "../GetCurrentLanguage";
 import { useEffect, useState } from "react";
 
-const AboutMe = () => {
-  const [AboutMe, setAboutMe] = useState({ heading: "", paragraphs: [] });
+const AboutMe = (currentLanguage) => {
+  const [aboutMe, setAboutMe] = useState({ heading: "", paragraphs: [] });
 
   useEffect(() => {
     localStorage.setItem("chosenNavElement", 1);
+
     async function loadText() {
-      let AboutMeHeadingAndParagraph = await getText(
-        "AboutMeHeadingAndParagraph",
-      );
+      let AboutMeHeadingAndParagraph = getText("AboutMeHeadingAndParagraph");
       setAboutMe({
         heading: AboutMeHeadingAndParagraph.heading,
         paragraphs: AboutMeHeadingAndParagraph.paragraphs,
       });
     }
     loadText();
-  }, []);
+  }, [currentLanguage]);
 
   return (
     <section className="section">
-      <h3>{AboutMe.heading}</h3>
-      {AboutMe.paragraphs?.map((paragraph, key) => {
+      <h3>{aboutMe.heading}</h3>
+      {aboutMe.paragraphs?.map((paragraph, key) => {
         return <p key={key}>{paragraph}</p>;
       })}
     </section>
