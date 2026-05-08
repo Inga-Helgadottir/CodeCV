@@ -1,24 +1,24 @@
 import "../../Styles/Gallery.css";
-import arrow from "../../images/arrow.svg";
 import { useState } from "react";
+import Arrow from "./Arrow";
 
 const Gallery = () => {
   const [currentImgId, setCurrentImgId] = useState(0);
 
-  function importAll(r) {
+  const importAll = (r) => {
     return r.keys().map(r);
-  }
+  };
 
   const images = importAll(
     require.context("../../images/Jordan-pics", false, /\.(jpg)$/),
   );
 
-  function thumbnailClicked(id) {
+  const thumbnailClicked = (id) => {
     let intId = Number(id);
     setCurrentImgId(intId);
-  }
+  };
 
-  function nextId(whichArrow) {
+  const nextId = (whichArrow) => {
     if (whichArrow === "left") {
       if (currentImgId === 0) {
         setCurrentImgId(images.length - 1);
@@ -32,12 +32,12 @@ const Gallery = () => {
         setCurrentImgId(currentImgId + 1);
       }
     }
-  }
+  };
 
-  function arrowPressed(whichArrow) {
+  const arrowPressed = (whichArrow) => {
     let mainImg = document.getElementById("mainImg");
     mainImg.src = images[nextId(whichArrow)];
-  }
+  };
 
   return (
     <div className="gallery">
@@ -57,18 +57,8 @@ const Gallery = () => {
         })}
       </div>
       <div className="arrows">
-        <img
-          src={arrow}
-          onClick={() => arrowPressed("left")}
-          alt="left arrow"
-          className="arrow left-arrow"
-        ></img>
-        <img
-          src={arrow}
-          onClick={() => arrowPressed("right")}
-          alt="right arrow"
-          className="arrow"
-        ></img>
+        <Arrow onClick={() => arrowPressed("left")} />
+        <Arrow onClick={() => arrowPressed("right")} />
       </div>
     </div>
   );
