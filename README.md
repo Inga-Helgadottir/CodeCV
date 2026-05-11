@@ -1,6 +1,6 @@
 # This is a repository for my code CV
 
-Here I will add my education, courses, jobs and display some of what I can do.
+This is the code version of my CV, created as a React SPA, because I absolutely love React. I will be adding more every chance I get. [This is the link to the SPA hosted for free with netlify](https://inga-helgadottir-code-cv.netlify.app/)
 
 # Getting Started with Create React App
 
