@@ -28,8 +28,6 @@ export const getText = (whichText) => {
         return English.NoPage_eng;
       case "FooterHeading":
         return English.FooterHeading_eng;
-      case "BackToTheTopComponentText":
-        return English.BackToTheTopComponentText_eng;
       case "LightDarkMode":
         return English.LightDarkMode_eng;
       default:
@@ -55,8 +53,6 @@ export const getText = (whichText) => {
         return Dansk.NoPage_dk;
       case "FooterHeading":
         return Dansk.FooterHeading_dk;
-      case "BackToTheTopComponentText":
-        return Dansk.BackToTheTopComponentText_dk;
       case "LightDarkMode":
         return Dansk.LightDarkMode_dk;
       default:
