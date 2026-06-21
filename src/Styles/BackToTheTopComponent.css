@@ -43,3 +43,16 @@
     margin: 1% 42%;
   }
 }
+
+@media only screen and (max-width: 812px) {
+  #backToTheTopArrowButton {
+    /* font-size: small; */
+    margin: 1% 40%;
+  }
+}
+
+@media only screen and (max-width: 626px) {
+  #backToTheTopArrowButton {
+    margin: 2% 38%;
+  }
+}
