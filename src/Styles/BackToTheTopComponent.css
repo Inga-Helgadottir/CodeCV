@@ -1,0 +1,45 @@
+#backToTheTopArrowButton {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--backToTheTopBackgroundColor);
+  border: solid 4px var(--backToTheTopArrowTextAndBorderColor);
+  color: var(--backToTheTopArrowTextAndBorderColor);
+  font-size: large;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  text-align: center;
+  margin: 1% 44%;
+}
+
+#backToTheTopArrowButton:hover {
+  background-color: var(--backToTheTopBackgroundColorHover);
+  border: solid 4px var(--backToTheTopArrowTextAndBorderColorHover);
+  color: var(--backToTheTopArrowTextAndBorderColorHover);
+}
+
+#backToTheTopArrowButton svg {
+  margin: 10px auto;
+}
+
+#backToTheTopArrowButton .arrowLine {
+  stroke: var(--backToTheTopArrowTextAndBorderColor);
+  stroke-width: 5px;
+}
+
+#backToTheTopArrowButton:hover .arrowLine {
+  stroke: var(--backToTheTopArrowTextAndBorderColorHover);
+  stroke-width: 5px;
+}
+
+#backToTheTopArrowButton .arrow-svg {
+  width: 50%;
+  height: auto;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1194px) {
+  #backToTheTopArrowButton {
+    font-size: medium;
+    margin: 1% 42%;
+  }
+}

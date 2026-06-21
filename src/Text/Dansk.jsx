@@ -191,4 +191,6 @@ export const NoPage_dk = {
 
 export const FooterHeading_dk = "Kontaktoplysninger";
 
+export const BackToTheTopComponentText_dk = "Tilbage til toppen";
+
 export const LightDarkMode_dk = ["Lys tilstand", "Mørk tilstand"];

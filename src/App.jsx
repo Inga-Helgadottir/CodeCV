@@ -4,6 +4,7 @@ import "./Styles/ColorVariables.css";
 import Footer from "./Components/PageParts/Footer";
 import Header from "./Components/PageParts/Header";
 import NavBar from "./Components/PageParts/NavBar";
+import BackToTheTop from "./Components/PageParts/BackToTheTopComponent";
 import { useState } from "react";
 import { getCurrentLanguage } from "./Components/GetCurrentLanguage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -79,6 +80,8 @@ const App = () => {
             element={<NoPage currentLanguage={currentLanguage} />}
           />
         </Routes>
+
+        <BackToTheTop currentLanguage={currentLanguage} />
 
         <Footer currentLanguage={currentLanguage} />
       </div>

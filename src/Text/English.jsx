@@ -194,4 +194,6 @@ export const NoPage_eng = {
 
 export const FooterHeading_eng = "Contact information";
 
+export const BackToTheTopComponentText_eng = "Back to the top";
+
 export const LightDarkMode_eng = ["Light mode", "Dark mode"];
