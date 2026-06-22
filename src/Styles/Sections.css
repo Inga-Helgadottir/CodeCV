@@ -4,13 +4,26 @@
 }
 
 .section h3,
-.section p {
+.section p,
+.sectionParagraph {
   padding: 0 40px;
+}
+
+.sectionParagraph {
+  margin: 16px 0;
 }
 
 /* Responsive */
 @media only screen and (max-width: 790px) {
   .section {
     margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .section h3,
+  .section p,
+  .sectionParagraph {
+    padding: 0 10px;
   }
 }
