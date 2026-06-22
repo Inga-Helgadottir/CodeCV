@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { getText } from "../GetCurrentLanguage";
+import "../../Styles/NoPage.css";
 
 const NoPage = (currentLanguage) => {
   const [noPageText, setNoPageText] = useState("");
@@ -10,9 +11,10 @@ const NoPage = (currentLanguage) => {
   }, [currentLanguage]);
 
   return (
-    <div className="container">
+    <div className="noPageContainer">
       <h2>{noPageText.heading}</h2>
       <a href="/">{noPageText.content}</a>
+      <img src="https://http.cat/404" alt="cat" />
     </div>
   );
 };

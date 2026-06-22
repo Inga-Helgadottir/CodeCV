@@ -1,0 +1,14 @@
+.noPageContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.noPageContainer img {
+  margin: 0 auto;
+}
+
+.noPageContainer a {
+  font-size: x-large;
+  padding: 10px 0;
+}
