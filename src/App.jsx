@@ -4,7 +4,7 @@ import "./Styles/ColorVariables.css";
 import Footer from "./Components/PageParts/Footer";
 import Header from "./Components/PageParts/Header";
 import NavBar from "./Components/PageParts/NavBar";
-import BackToTheTop from "./Components/PageParts/BackToTheTopComponent";
+import BackToTheTopComponent from "./Components/PageParts/BackToTheTopComponent";
 import { useState } from "react";
 import { getCurrentLanguage } from "./Components/GetCurrentLanguage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -22,7 +22,7 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <div className="App" id="top">
+      <div className="App">
         <Header
           currentLanguage={currentLanguage}
           setCurrentLanguage={setCurrentLanguage}
@@ -81,7 +81,7 @@ const App = () => {
           />
         </Routes>
 
-        <BackToTheTop currentLanguage={currentLanguage} />
+        <BackToTheTopComponent currentLanguage={currentLanguage} />
 
         <Footer currentLanguage={currentLanguage} />
       </div>
