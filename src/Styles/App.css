@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--primaryBackgroundColor);
   margin: 0;
@@ -15,10 +19,10 @@ svg {
   background-color: var(--secondaryBackgroundColor);
 }
 
-.sectionElement a {
+.sectionParagraph a {
   color: var(--sectionLinkColor);
 }
 
-.sectionElement a:hover {
+.sectionParagraph a:hover {
   color: var(--sectionLinkHoverColor);
 }
