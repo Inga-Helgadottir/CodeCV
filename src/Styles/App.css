@@ -19,10 +19,12 @@ svg {
   background-color: var(--secondaryBackgroundColor);
 }
 
-.sectionParagraph a {
+.sectionParagraph a,
+.noPageContainer a {
   color: var(--sectionLinkColor);
 }
 
-.sectionParagraph a:hover {
+.sectionParagraph a:hover,
+.noPageContainer a:hover {
   color: var(--sectionLinkHoverColor);
 }
