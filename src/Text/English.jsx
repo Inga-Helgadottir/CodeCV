@@ -36,6 +36,15 @@ export const AboutMeHeadingAndParagraph_eng = {
 
 export const ExperienceHeadingsAndParagraphs_eng = [
   {
+    location:
+      "Teknika – Copenhagen Collage of Technology Management and Marine Engineering",
+    position: "Guest Speaker",
+    date: "(November 2024 and October 2025)",
+    paragraph: [
+      "I was twice offered a chance to give a presentation for students at Teknika. My first presentation was about Git, GitHub, and basic Python. The second presentation was focused on going a little deeper into Python and learning the basics of APIs, HTML, CSS, and vanilla JavaScript. Both presentations included exercises and were held for the 8th-semester students enrolled in the IT program.",
+    ],
+  },
+  {
     location: "Furesø kommune",
     position: "Full-stack developer",
     date: "(August 2024 – October 2024)",
