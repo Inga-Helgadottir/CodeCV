@@ -1,5 +1,4 @@
 :root {
-  /* ligth mode 
   --headerBackgroundColorGradient: linear-gradient(to right, #2ec4b6, #3abeff);
 
   --primaryTextColor: #0f172a;
@@ -20,39 +19,5 @@
   --backToTheTopArrowTextAndBorderColor: #0f172a;
   --backToTheTopArrowTextAndBorderColorHover: #3abeff;
   --backToTheTopBackgroundColor: #3abeff;
-  --backToTheTopBackgroundColorHover: #0f172a;*/
-
-  /* dark mode */
-  --headerBackgroundColorGradient: linear-gradient(
-    to right,
-    #5e1180,
-    #063b8c,
-    #06777a
-  );
-
-  --primaryTextColor: #f8fafc;
-
-  --primaryBackgroundColor: #233765;
-  --secondaryBackgroundColor: #0f172a;
-
-  --LightModeButtonColor: #0f172a;
-  --LightModeButtonBackgroundColor: #f8fafc;
-  --DarkModeButtonColor: #f8fafc;
-  --DarkModeButtonBackgroundColor: #0f172a;
-
-  --navigationalBackgroundColor: #3abeff;
-  --navAndFooterLinkAndBorderColor: #0f172a;
-  --navAndFooterLinkHoverColor: #14b8a6;
-  --navLinkChosenColor: #00ffe2;
-
-  --sectionLinkColor: #3abeff;
-  --sectionLinkHoverColor: #14b8a6;
-
-  --galleryArrowColor: #00ffe2;
-  --galleryArrowColorHover: #3abeff;
-
-  --backToTheTopArrowTextAndBorderColor: #3abeff;
-  --backToTheTopArrowTextAndBorderColorHover: #0f172a;
-  --backToTheTopBackgroundColor: #0f172a;
-  --backToTheTopBackgroundColorHover: #3abeff;
+  --backToTheTopBackgroundColorHover: #0f172a;
 }
