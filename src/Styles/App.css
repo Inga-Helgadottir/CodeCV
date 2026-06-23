@@ -4,10 +4,12 @@ html {
 
 body {
   background-color: var(--primaryBackgroundColor);
-  margin: 0;
+  margin: 0 auto;
   font-family: "Roboto";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-bottom: 3px;
+  max-width: 1550px;
 }
 
 svg {

@@ -13,8 +13,8 @@ const NoPage = (currentLanguage) => {
   return (
     <div className="noPageContainer">
       <h2>{noPageText.heading}</h2>
-      <a href="/">{noPageText.content}</a>
       <img src="https://http.cat/404" alt="cat" />
+      <a href="/">{noPageText.content}</a>
     </div>
   );
 };
