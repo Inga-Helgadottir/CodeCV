@@ -2,7 +2,7 @@
   --headerBackgroundColorGradient: linear-gradient(to right, #2ec4b6, #3abeff);
 
   --primaryTextColor: #0f172a;
-  --primaryBackgroundColor: #f8fafc;
+  --primaryBackgroundColor: #c1d6e0;
   --secondaryBackgroundColor: #f8fafc;
 
   --navigationalBackgroundColor: #3abeff;
@@ -20,4 +20,10 @@
   --backToTheTopArrowTextAndBorderColorHover: #3abeff;
   --backToTheTopBackgroundColor: #3abeff;
   --backToTheTopBackgroundColorHover: #0f172a;
+
+  --LightModeButtonColor: #0f172a;
+  --LightModeButtonBackgroundColor: #f8fafc;
+
+  --DarkModeButtonColor: #f8fafc;
+  --DarkModeButtonBackgroundColor: #0f172a;
 }

@@ -19,7 +19,7 @@ export const setLightTheme = () => {
       "linear-gradient(to right, #2ec4b6, #3abeff)",
 
     primaryTextColor: "#0f172a",
-    primaryBackgroundColor: "#f8fafc",
+    primaryBackgroundColor: "#c1d6e0",
     secondaryBackgroundColor: "#f8fafc",
 
     navigationalBackgroundColor: "#3abeff",
