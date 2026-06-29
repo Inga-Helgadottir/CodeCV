@@ -24,7 +24,7 @@ const BackToTheTopComponent = ({ currentLanguage }) => {
       aria-label="Back to the top"
     >
       {text}
-      <Arrow props={{ arrow: "Top" }} />
+      <Arrow />
     </button>
   );
 };
