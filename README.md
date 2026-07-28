@@ -1,7 +1,5 @@
 # This is a code version of my CV - Inga Helgadottir
 
-<img src="src/Images/CVpic.jpg" alt="Picute of Inga Helgadottir" style="width:50px;"/>
-
 ## About the project
 
 This project is a React.js single-page application (SPA) that functions as an interactive, dynamic version of my CV. I built it out of my love for React and plan to continuously update and expand it.
