@@ -1,6 +1,7 @@
-import { getText } from "../GetCurrentLanguage";
-import { useEffect, useState } from "react";
 import "../../Styles/AboutMe.css";
+import Section from "../PageParts/Section";
+import { useEffect, useState } from "react";
+import { getText } from "../GetCurrentLanguage";
 
 const AboutMe = ({ currentLanguage, setCurrentPage }) => {
   const [aboutMe, setAboutMe] = useState({ heading: "", paragraphs: [] });
@@ -11,22 +12,12 @@ const AboutMe = ({ currentLanguage, setCurrentPage }) => {
 
     async function loadText() {
       let AboutMeHeadingAndParagraph = getText("AboutMeHeadingAndParagraph");
-      setAboutMe({
-        heading: AboutMeHeadingAndParagraph.heading,
-        paragraphs: AboutMeHeadingAndParagraph.paragraphs,
-      });
+      setAboutMe(AboutMeHeadingAndParagraph);
     }
     loadText();
   }, [currentLanguage, setCurrentPage]);
 
-  return (
-    <section className="section aboutMeSection">
-      <h3 id="aboutMeHeading">{aboutMe.heading}</h3>
-      {aboutMe.paragraphs?.map((paragraph, key) => {
-        return <p key={key}>{paragraph}</p>;
-      })}
-    </section>
-  );
+  return <Section option={aboutMe} />;
 };
 
 export default AboutMe;

@@ -87,32 +87,21 @@ You can view the live version hosted for free on [Netlify](https://inga-helgadot
   - **Section**
   - **UpdateLanguage**
 
-#### AboutMe
-
-- Calls getText which gets a response that looks like this
-
-```javascript
-{
-  heading: "Om Mig",
-  paragraphs: ["paragraph", "paragraph 2", "paragraph 3"],
-};
-```
-
-- This information gets displayed as an h3 and a map of p elements for the paragraphs
-
-#### MyCourses, MyEducation and MyExperience all follow the same script
+#### AboutMe, MyCourses, MyEducation and MyExperience all follow the same script
 
 - Calls getText which gets a response that looks like this
 
 ```javascript
 [
   {
-    location: "location",
+    // One object for each section
+    location:
+      "Main heading in About me, Workplace in Experience, school in Education and the name of the Courses I took",
     position:
-      "position for Experience, education title for Education or empty for Courses",
-    date: "start date - end date",
-    paragraph: ["paragraph", "paragraph 2", "paragraph 3"],
-  }, // One object for each workplace, school or course
+      "position for Experience, education title for Education or empty for About me and Courses",
+    date: "Empty in About me and start date - end date for the rest",
+    paragraphs: ["paragraph", "paragraph 2", "paragraph 3"],
+  },
 ];
 ```
 
@@ -122,6 +111,7 @@ You can view the live version hosted for free on [Netlify](https://inga-helgadot
 
 - Takes a text porp with the object array just mentioned
 - Maps it into a sections of h3, paragraphs and a div for the paragraphs because I also have links and a Gallery in there
+- If the paragraph is empty it gives some space between paragraphs
 
 ```javascript
 <div>
@@ -131,12 +121,16 @@ You can view the live version hosted for free on [Netlify](https://inga-helgadot
         <h3>{section.location}</h3>
         <p>{section.position}</p>
         <p>{section.date}</p>
-        {section.paragraph?.map((paragraph, key) => {
-          return (
-            <div key={key} className="sectionParagraph">
-              {paragraph}
-            </div>
-          );
+        {section.paragraphs?.map((paragraph, key) => {
+          if (paragraph === "") {
+            return <br />;
+          } else {
+            return (
+              <div key={key} className="sectionParagraph">
+                {paragraph}
+              </div>
+            );
+          }
         })}
       </section>
     );
