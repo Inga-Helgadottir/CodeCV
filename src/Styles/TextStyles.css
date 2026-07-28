@@ -11,7 +11,8 @@ h3 {
 }
 
 p,
-.sectionParagraph {
+.sectionParagraph,
+.sectionParagraph a {
   font-size: 20px;
 }
 

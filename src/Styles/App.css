@@ -5,7 +5,7 @@ html {
 body {
   background-color: var(--primaryBackgroundColor);
   margin: 0 auto;
-  font-family: "Roboto";
+  font-family: "Times New Roman", Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-bottom: 3px;
