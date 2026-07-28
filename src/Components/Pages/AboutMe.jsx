@@ -1,4 +1,3 @@
-import "../../Styles/AboutMe.css";
 import Section from "../PageParts/Section";
 import { useEffect, useState } from "react";
 import { getText } from "../GetCurrentLanguage";
