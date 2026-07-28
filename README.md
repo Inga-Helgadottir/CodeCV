@@ -45,7 +45,7 @@ You can view the live version hosted for free on [Netlify](https://inga-helgadot
 
 - This file has all of the main colors used on the site saved in root variables
   - This is to make it easier to change the theme of the page
-- Here is a small section og this file
+- Here is a small section of this file
 
 ```css
 :root {
