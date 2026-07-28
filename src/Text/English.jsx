@@ -60,6 +60,10 @@ export const ExperienceHeadingsAndParagraphs_eng = [
     paragraph: [
       "I started an internship at Furesø kommune digitization department on the 26th of August and was supposed to stay there for 4 weeks, but they asked me to stay another 4 weeks. Even though they don’t have enough coding projects to give me a job, they did have a few possible projects, one of which was making a very large CSV file easier to search through, as searching through the existing file was confusing and time consuming. I built the user interface for this data in ReactJS, I used Python to alter multiple different filetypes to pdfs files. I also used Python to join some Excel files together based on a few shared columns.",
       "Karen Thestrup Cuppers (Webmaster) LinkedIn review: I have had the pleasure of working with Inga in Furesø Kommune. Inga has mapped out and executed a major data project in a short time, which was also expanded along the way as a natural part of the project's development and stakeholder input. Many thanks to Inga for her adaptability and good collaboration.",
+      <LinkButton
+        link={"https://www.linkedin.com/in/karencuppers/"}
+        text={"LinkedIn: Karen Thestrup Cuppers"}
+      />,
     ],
   },
   {
@@ -69,6 +73,10 @@ export const ExperienceHeadingsAndParagraphs_eng = [
     paragraph: [
       "Shortly after my internship ended, I was contacted by Furesø kommune for a temporary position helping their RPA developer (Robotic process automation). For the first 4 weeks I got a crash course in Power automate and some of the more important robots. By the second week I had gotten the hang of building and updating Power automate robots. The rest of the time I was taught about their most important robots, at the end of those 4 weeks their RPA developer quit, so I was on my own maintaining their many robots for months. I worked a lot in Power automate and regularly used HTML and CSS to format emails and Python scripts for the more advanced functions, that can be difficult to complete in Power automate alone.",
       "My boss there, Christian Bo Christiansen LinkedIn review: I have been a manager for and worked with Inga in Furesø kommune. Inga maintained and developed RPA solutions in the finance department. Inga had limited experience with RPA when she started, but learned very quickly to solve the tasks with the daily operation and development of new solutions in Power Automate. Inga was responsible for her tasks, good to work with and she also enjoyed participating in the department's social life. If you have Inga in mind for a job, please get in touch.",
+      <LinkButton
+        link={"https://www.linkedin.com/in/christian-bo-christiansen-6095323/"}
+        text={"LinkedIn: Christian Bo Christiansen"}
+      />,
     ],
   },
   {
@@ -80,6 +88,12 @@ export const ExperienceHeadingsAndParagraphs_eng = [
       "We continued working for DMI through our main project as well, on the same site but a different tab. This time we worked on a tab that shows a map of all the weather stations in Denmark. There we used modern visualization tools to add two new parameters crosswind and wind gust to the map, showing the strength of the crosswind and wind gust, along with a graph over the readings from the last few hours at this station.",
       "At the end of our main project, we showed the result of our work at a meeting with people from many different positions within DMI. The response we received was very positive, both from DMI’s employees and our teacher and censor during the exam.",
       "Anne Marie Munk Jørgensen is the leader of Consulting and Digitization at DMI and my mentor during the internship period and is willing to give a recommendation to those who want it.",
+      <LinkButton
+        link={
+          "https://www.linkedin.com/in/anne-marie-munk-j%C3%B8rgensen-9b929a5/"
+        }
+        text={"LinkedIn: Anne Marie Munk Jørgensen"}
+      />,
     ],
   },
 ];
