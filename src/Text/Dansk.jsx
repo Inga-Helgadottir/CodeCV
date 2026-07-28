@@ -51,6 +51,12 @@ export const ExperienceHeadingsAndParagraphs_dk = [
     date: "(November 2024 og oktober 2025)",
     paragraph: [
       "Jeg blev to gange tilbudt at holde en præsentation for studerende på Teknika. Min første præsentation handlede om Git, GitHub og grundlæggende Python. Den anden præsentation fokuserede på at gå lidt dybere ind i Python og grundlæggende API'er, HTML, CSS og vanilla JavaScript. Begge præsentationer indeholdt øvelser og blev afholdt for studerende på 8. semester tilmeldt IT-linjen.",
+      <LinkButton
+        link={"https://teknika.dk/"}
+        text={
+          "Teknika – Copenhagen Collage of Technology Management and Marine Engineering"
+        }
+      />,
     ],
   },
   {
