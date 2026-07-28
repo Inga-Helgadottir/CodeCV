@@ -1,7 +1,10 @@
 import Gallery from "../Components/PageParts/Gallery";
+
 export const HeaderHeading_dk = "Full-stack udvikler";
+
 export const HeaderContent_dk =
   "Jeg elsker at arbejde med begge front-end og back-end programmering";
+
 export const NavBarOptions_dk = [
   {
     id: 1,
@@ -22,6 +25,11 @@ export const NavBarOptions_dk = [
     id: 4,
     optionName: "Kurser",
     optionDestination: "/Courses",
+  },
+  {
+    id: 5,
+    optionName: "Evner",
+    optionDestination: "/Skills",
   },
 ];
 

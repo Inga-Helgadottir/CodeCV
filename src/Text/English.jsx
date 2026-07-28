@@ -1,7 +1,11 @@
 import Gallery from "../Components/PageParts/Gallery";
+import LinkButton from "../Components/PageParts/LinkButton";
+
 export const HeaderHeading_eng = "Full-stack developer";
+
 export const HeaderContent_eng =
   "I love working with both front-end and back-end programming";
+
 export const NavBarOptions_eng = [
   {
     id: 1,
@@ -22,6 +26,11 @@ export const NavBarOptions_eng = [
     id: 4,
     optionName: "Courses",
     optionDestination: "/Courses",
+  },
+  {
+    id: 5,
+    optionName: "Skills",
+    optionDestination: "/Skills",
   },
 ];
 
@@ -83,23 +92,16 @@ export const EducationHeadingAndParagraphs_eng = [
     paragraph: [
       "During my Computer Science education, I learned Java, SQL, creating REST APIs using Java Persistence API (JPA) and MYSQL, CI/CD Unit and integration tests, Python, Maven, Docker, Apache Tomcat, the Agile methodologies, Extreme programming (XP) and Git (GitHub) in depth. I have used all of these in many different projects, usually through IntelliJ IDEA but I also used NetBeans a few times. I was also introduced to multiple different frameworks, libraries, tools, and languages. My education was centred around me being able to quickly learn new languages, tools, and technologies and use them in various projects.",
       "My exam project in Python was to make Hangman, using the Rick and Morty API and some Movie data in csv format as the guess words. Then I used Pillow, which is a python library to make the UI part of the hangman game. This is the repository of that project: ",
-      <a
-        href="https://github.com/Inga-Helgadottir/PythonEksamensProjekt"
-        rel="noreferrer"
-        target="_blank"
-      >
-        GitHub: PythonEksamensProjekt
-      </a>,
+      <LinkButton
+        link={"https://github.com/Inga-Helgadottir/PythonEksamensProjekt"}
+        text={"GitHub: PythonEksamensProjekt"}
+      />,
 
       "To get a better idea of my skills you can also check out the practice project I created before my exam in JPA. This project has the entities/Tables/Schemas OneSide, OtherOneSide, ManySide, OtherManySide, so that I could get all the different relationships one to one, one to many and many to many. This is the repository where I practiced for my exam:",
-
-      <a
-        href="https://github.com/Inga-Helgadottir/JPA-Notes"
-        rel="noreferrer"
-        target="_blank"
-      >
-        GitHub: JPA-Notes
-      </a>,
+      <LinkButton
+        link={"https://github.com/Inga-Helgadottir/JPA-Notes"}
+        text={"GitHub: JPA-Notes"}
+      />,
     ],
   },
   {
@@ -110,13 +112,10 @@ export const EducationHeadingAndParagraphs_eng = [
     paragraph: [
       "During the Web development education, I learned HTML, CSS, SASS, Bootstrap, JavaScript, Git (GitHub), JSON and how to use REST APIs in depth, using each of them together in many different projects using Visual Studio Code. I was also introduced to multiple different frameworks, libraries, tools, and languages.",
       "We had a new project each week, making a website for our favourite Movies, Bands, Games and so on. One of the most memorable projects I worked on was the 40’s project. Many different educations were being taught in NEXT, and we were all divided into teams, each team with a front-end developer, UI/UX designer, a few costume designers, a few make-up artists and photographers. Each team was given a decade, and we got the 40’s. We all worked as a team to make a website dedicated to our decade; I worked closely with the UX/UI designer to make our website which sadly is no longer online. To get a better idea of what we learned you can look at the practice repository, I created to get ready for the exam: ",
-      <a
-        href="https://github.com/SIngaH/practice"
-        rel="noreferrer"
-        target="_blank"
-      >
-        GitHub: practice
-      </a>,
+      <LinkButton
+        link={"https://github.com/SIngaH/practice"}
+        text={"GitHub: practice"}
+      />,
     ],
   },
   {
@@ -148,13 +147,10 @@ export const CoursesHeadingAndParagraphs_eng = [
     paragraph: [
       "ExOpi Talent Academy is a 10-week course where we worked on projects to show what we can do, learn new skills and refine our own, while they also help us find a job. Some examples of my tasks during the course were making Blackjack out of ReactJS and a Python project that looks at links in a CSV file and if they are valid PDF files, they are downloaded and information about each link is saved in another CSV file even if it was not a valid PDF link. For this project I also used multiple threads to cut the download time for all 250 of the links provided from 3 hours to 2 minutes. To see some of these projects you can look at my repository: https://github.com/Inga-Helgadottir/ExopiTalentAcademyProjects/, there are only 2 projects on this one but the other must remain private as it contains sensitive information.",
       "Jonas Rasmusen is the head of Talent Academy and Innovation at ExOpi and Bina Hjorth Reichstein is their CEO, and they are both ready to give a reference if you want it.",
-      <a
-        href="https://www.exopi.dk/talent-acedemy/"
-        rel="noreferrer"
-        target="_blank"
-      >
-        ExOpi Talent Academy
-      </a>,
+      <LinkButton
+        link={"https://www.exopi.dk/talent-acedemy/"}
+        text={"ExOpi Talent Academy"}
+      />,
     ],
   },
   {
@@ -163,13 +159,12 @@ export const CoursesHeadingAndParagraphs_eng = [
     date: "(December 2023 – January 2024)",
     paragraph: [
       "Here I learned about the components of a computer along with possible add-ons and update and replacement of those components. I also learned preventative measures to ensure the safety of a device, along with the detection and removal of malware. Managing Windows, MacOS and Linux devices, through settings, control panel and the command line interface. Wireless security implementations, mobile security solutions, best documentation practices, privacy, licensing & policy concepts, proper communication techniques and professionalism, scripting techniques, remote access methods and a lot more.",
-      <a
-        href="https://nyledige.dk/kurser/systemadministration-it-sikkerhed-og-certificeringer/comptia/it-sikkerhedskursus/"
-        rel="noreferrer"
-        target="_blank"
-      >
-        CompTIA Security+
-      </a>,
+      <LinkButton
+        link={
+          "https://nyledige.dk/kurser/systemadministration-it-sikkerhed-og-certificeringer/comptia/it-sikkerhedskursus/"
+        }
+        text={"CompTIA Security+"}
+      />,
     ],
   },
   {
@@ -177,21 +172,26 @@ export const CoursesHeadingAndParagraphs_eng = [
     position: "",
     date: "",
     paragraph: [
-      <a href="https://lnkd.in/eS6tde62" rel="noreferrer" target="_blank">
-        TypeScript Essential Training
-      </a>,
-      <a href="https://lnkd.in/eEpDfyzt" rel="noreferrer" target="_blank">
-        Azure AI: The Big Picture (2023)
-      </a>,
-      <a href="https://lnkd.in/esz2VXU3" rel="noreferrer" target="_blank">
-        Microsoft Power Automate Essential Training
-      </a>,
-      <a href="https://lnkd.in/eEc-F4yJ" rel="noreferrer" target="_blank">
-        From React to React Native
-      </a>,
-      <a href="https://lnkd.in/e_z-CkRi" rel="noreferrer" target="_blank">
-        Microsoft Power Platform App Maker (PL-100) Cert Prep
-      </a>,
+      <LinkButton
+        link={"https://lnkd.in/eS6tde62"}
+        text={"TypeScript Essential Training"}
+      />,
+      <LinkButton
+        link={"https://lnkd.in/eEpDfyzt"}
+        text={"Azure AI: The Big Picture (2023)"}
+      />,
+      <LinkButton
+        link={"https://lnkd.in/esz2VXU3"}
+        text={"Microsoft Power Automate Essential Training"}
+      />,
+      <LinkButton
+        link={"https://lnkd.in/eEc-F4yJ"}
+        text={"From React to React Native"}
+      />,
+      <LinkButton
+        link={"https://lnkd.in/e_z-CkRi"}
+        text={"Microsoft Power Platform App Maker (PL-100) Cert Prep"}
+      />,
     ],
   },
 ];
