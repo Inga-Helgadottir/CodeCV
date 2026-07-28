@@ -9,6 +9,11 @@ nav h3,
 footer a,
 footer h3 {
   color: var(--navAndFooterLinkAndBorderColor);
+}
+
+nav a,
+nav h3,
+footer h3 {
   text-decoration: none;
   list-style-type: none;
 }

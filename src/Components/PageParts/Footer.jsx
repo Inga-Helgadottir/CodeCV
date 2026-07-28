@@ -20,14 +20,14 @@ const Footer = (currentLanguage) => {
           rel="noreferrer"
           target="_blank"
         >
-          s.inga.helgadottir95@gmail.com
+          Email: s.inga.helgadottir95@gmail.com
         </a>
         <a
           href="https://www.linkedin.com/in/inga-helgadottir/"
           rel="noreferrer"
           target="_blank"
         >
-          LinkedIn: inga-helgadottir
+          LinkedIn: Inga-helgadottir
         </a>
       </div>
       <div className="footerDiv2">
