@@ -1,0 +1,9 @@
+.linkButton {
+  background-color: var(--secondaryBackgroundColor);
+  border: solid 2px var(--sectionLinkColor);
+  padding: 15px;
+}
+
+.linkButton :hover {
+  background-color: var(--secondaryBackgroundColor);
+}
