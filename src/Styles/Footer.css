@@ -4,24 +4,37 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .footerDiv {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 70%;
+}
+
+footer a {
+  padding-top: 20px;
 }
 
 .footerDiv2 {
   padding-bottom: 25px;
-  padding-top: 20px;
+}
+
+@media only screen and (max-width: 540px) {
+  .footerDiv {
+    width: 98%;
+  }
 }
 
 @media only screen and (max-width: 452px) {
   .footerDiv {
     flex-direction: column;
   }
-  footer a {
-    padding-top: 20px;
+
+  .footerDiv a {
+    padding: 10px 0;
   }
 }

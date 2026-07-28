@@ -22,6 +22,12 @@ const Footer = (currentLanguage) => {
         >
           Email: s.inga.helgadottir95@gmail.com
         </a>
+
+        <a href="https://github.com/SIngaH" rel="noreferrer" target="_blank">
+          GitHub: SIngaH
+        </a>
+      </div>
+      <div className="footerDiv footerDiv2">
         <a
           href="https://www.linkedin.com/in/inga-helgadottir/"
           rel="noreferrer"
@@ -29,8 +35,6 @@ const Footer = (currentLanguage) => {
         >
           LinkedIn: Inga-helgadottir
         </a>
-      </div>
-      <div className="footerDiv2">
         <a
           href="https://github.com/Inga-Helgadottir"
           rel="noreferrer"
