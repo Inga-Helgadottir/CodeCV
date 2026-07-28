@@ -89,6 +89,7 @@ export const ExperienceHeadingsAndParagraphs_eng = [
         text={
           "Teknika – Copenhagen Collage of Technology Management and Marine Engineering"
         }
+        target={"_blank"}
       />,
     ],
   },
@@ -102,6 +103,7 @@ export const ExperienceHeadingsAndParagraphs_eng = [
       <LinkButton
         link={"https://www.linkedin.com/in/karencuppers/"}
         text={"LinkedIn: Karen Thestrup Cuppers"}
+        target={"_blank"}
       />,
     ],
   },
@@ -115,6 +117,7 @@ export const ExperienceHeadingsAndParagraphs_eng = [
       <LinkButton
         link={"https://www.linkedin.com/in/christian-bo-christiansen-6095323/"}
         text={"LinkedIn: Christian Bo Christiansen"}
+        target={"_blank"}
       />,
     ],
   },
@@ -132,6 +135,7 @@ export const ExperienceHeadingsAndParagraphs_eng = [
           "https://www.linkedin.com/in/anne-marie-munk-j%C3%B8rgensen-9b929a5/"
         }
         text={"LinkedIn: Anne Marie Munk Jørgensen"}
+        target={"_blank"}
       />,
     ],
   },
@@ -144,16 +148,20 @@ export const EducationHeadingAndParagraphs_eng = [
     date: "(January 2021 – June 2023)",
     paragraphs: [
       "During my Computer Science education, I learned Java, SQL, creating REST APIs using Java Persistence API (JPA) and MYSQL, CI/CD Unit and integration tests, Python, Maven, Docker, Apache Tomcat, the Agile methodologies, Extreme programming (XP) and Git (GitHub) in depth. I have used all of these in many different projects, usually through IntelliJ IDEA but I also used NetBeans a few times. I was also introduced to multiple different frameworks, libraries, tools, and languages. My education was centred around me being able to quickly learn new languages, tools, and technologies and use them in various projects.",
-      "My exam project in Python was to make Hangman, using the Rick and Morty API and some Movie data in csv format as the guess words. Then I used Pillow, which is a python library to make the UI part of the hangman game. This is the repository of that project: ",
+      "My exam project in Python was to make Hangman, using the Rick and Morty API and some Movie data in csv format as the guess words. Then I used Pillow, which is a python library to make the UI part of the hangman game.",
+      "This is the repository for that project: ",
       <LinkButton
         link={"https://github.com/Inga-Helgadottir/PythonEksamensProjekt"}
         text={"GitHub: PythonEksamensProjekt"}
+        target={"_blank"}
       />,
-
-      "To get a better idea of my skills you can also check out the practice project I created before my exam in JPA. This project has the entities/Tables/Schemas OneSide, OtherOneSide, ManySide, OtherManySide, so that I could get all the different relationships one to one, one to many and many to many. This is the repository where I practiced for my exam:",
+      "",
+      "To get a better idea of my skills you can also check out the practice project I created before my exam in JPA. This project includes entity tables such as OneSide, OtherOneSide, ManySide, and OtherManySide, which model the different relationships in the database.",
+      "Her kan du se koden bag prokjektet:",
       <LinkButton
         link={"https://github.com/Inga-Helgadottir/JPA-Notes"}
         text={"GitHub: JPA-Notes"}
+        target={"_blank"}
       />,
     ],
   },
@@ -164,10 +172,18 @@ export const EducationHeadingAndParagraphs_eng = [
     date: "(January 2019 – October 2020)",
     paragraphs: [
       "During the Web development education, I learned HTML, CSS, SASS, Bootstrap, JavaScript, Git (GitHub), JSON and how to use REST APIs in depth, using each of them together in many different projects using Visual Studio Code. I was also introduced to multiple different frameworks, libraries, tools, and languages.",
-      "We had a new project each week, making a website for our favourite Movies, Bands, Games and so on. One of the most memorable projects I worked on was the 40’s project. Many different educations were being taught in NEXT, and we were all divided into teams, each team with a front-end developer, UI/UX designer, a few costume designers, a few make-up artists and photographers. Each team was given a decade, and we got the 40’s. We all worked as a team to make a website dedicated to our decade; I worked closely with the UX/UI designer to make our website which sadly is no longer online. To get a better idea of what we learned you can look at the practice repository, I created to get ready for the exam: ",
+      "We had a new project each week, making a website for our favourite Movies, Bands, Games and so on. One of the most memorable projects I worked on was the 40’s project. Many different educations were being taught in NEXT, and we were all divided into teams, each team with a front-end developer, UI/UX designer, a few costume designers, a few make-up artists and photographers. Each team was given a decade, and we got the 40’s. We all worked as a team to make a website dedicated to our decade; I worked closely with the UX/UI designer to make our website which sadly is no longer online.",
+      "To get a better idea of what we learned you can look at the practice repository, I created to get ready for the exam: ",
       <LinkButton
         link={"https://github.com/SIngaH/practice"}
         text={"GitHub: practice"}
+        target={"_blank"}
+      />,
+      "You can also look at this project I created during my computer science education, to help my classmates with our frontend module:",
+      <LinkButton
+        link={"https://github.com/Inga-Helgadottir/HtmlCssJavascripHelper/"}
+        text={"GitHub: HtmlCssJavascripHelper"}
+        target={"_blank"}
       />,
     ],
   },
@@ -177,6 +193,16 @@ export const EducationHeadingAndParagraphs_eng = [
     date: "(December 2017 –December 2018)",
     paragraphs: [
       "I took both English A and Danish 0-A, to have it in writing that I am academically fluent in both languages, I took Math B to prepare for the web developer education and because I like Math.",
+      <LinkButton
+        link={"https://vuclyngby.dk/"}
+        text={"VUC Lyngby website"}
+        target={"_blank"}
+      />,
+      <LinkButton
+        link={"https://kvuc.dk/"}
+        text={"KVUC website"}
+        target={"_blank"}
+      />,
     ],
   },
   {
@@ -186,7 +212,13 @@ export const EducationHeadingAndParagraphs_eng = [
     paragraphs: [
       "A production school is where you get paid to learn and then use that knowledge to generate things you can later sell, as I was on the photography line, I sold pictures. The school had many different lines like dance, running a restaurant, woodshop and campaigning.",
       "The photography line and the campaigning line took a trip to Jordan to interview Syrian refugees, when we came home, we worked closely together on a charity event, where we raised money to help them. I created roller banners with QR codes leading to videos and link where you could donate. I also designed the logo they used for everything; I still have the t-shirt.",
-      "Here are some of the pictures I took on this trip and sold to help those refugees.",
+      <LinkButton
+        link={"https://www.youtube.com/watch?v=4QO57kLz63I"}
+        text={"Here is a YouTube video about our trip"}
+        target={"_blank"}
+      />,
+      "",
+      "Here are some of the pictures I took on this trip and sold to help Syrian refugees.",
       <Gallery />,
     ],
   },
@@ -198,11 +230,24 @@ export const CoursesHeadingAndParagraphs_eng = [
     position: "",
     date: "(April 2024 – June 2024)",
     paragraphs: [
-      "ExOpi Talent Academy is a 10-week course where we worked on projects to show what we can do, learn new skills and refine our own, while they also help us find a job. Some examples of my tasks during the course were making Blackjack out of ReactJS and a Python project that looks at links in a CSV file and if they are valid PDF files, they are downloaded and information about each link is saved in another CSV file even if it was not a valid PDF link. For this project I also used multiple threads to cut the download time for all 250 of the links provided from 3 hours to 2 minutes. To see some of these projects you can look at my repository: https://github.com/Inga-Helgadottir/ExopiTalentAcademyProjects/, there are only 2 projects on this one but the other must remain private as it contains sensitive information.",
+      "ExOpi Talent Academy is a 10-week course where we worked on projects to show what we can do, learn new skills and refine our own, while they also help us find a job. Some examples of my tasks during the course were data analysis, Excel manipulation, making Blackjack out of ReactJS and a Python project that looks at links in a CSV file and if they are valid PDF files, they are downloaded and information about each link is saved in another CSV file even if it was not a valid PDF link. For this project I also used multiple threads to cut the download time for all 250 of the links provided from 3 hours to 2 minutes.",
+      "To see 2 of these projects you can look at my repository, the other projects are either things that would make no sence to save on GitHub or things that must remain private as it contains sensitive information.",
+      <LinkButton
+        link={"https://github.com/Inga-Helgadottir/ExopiTalentAcademyProjects/"}
+        text={"GitHub: ExopiTalentAcademyProjects"}
+        target={"_blank"}
+      />,
       "Jonas Rasmusen is the head of Talent Academy and Innovation at ExOpi and Bina Hjorth Reichstein is their CEO, and they are both ready to give a reference if you want it.",
+      "Here are some of the projects I worked on during those 10 weeks:",
+      <LinkButton
+        link={"https://www.linkedin.com/in/jonas-rasmussen-297a18b9/"}
+        text={"LinkedIn: Jonas Rasmusen"}
+        target={"_blank"}
+      />,
       <LinkButton
         link={"https://www.exopi.dk/talent-acedemy/"}
         text={"ExOpi Talent Academy"}
+        target={"_blank"}
       />,
     ],
   },
@@ -217,6 +262,7 @@ export const CoursesHeadingAndParagraphs_eng = [
           "https://nyledige.dk/kurser/systemadministration-it-sikkerhed-og-certificeringer/comptia/it-sikkerhedskursus/"
         }
         text={"CompTIA Security+"}
+        target={"_blank"}
       />,
     ],
   },
@@ -228,22 +274,27 @@ export const CoursesHeadingAndParagraphs_eng = [
       <LinkButton
         link={"https://lnkd.in/eS6tde62"}
         text={"TypeScript Essential Training"}
+        target={"_blank"}
       />,
       <LinkButton
         link={"https://lnkd.in/eEpDfyzt"}
         text={"Azure AI: The Big Picture (2023)"}
+        target={"_blank"}
       />,
       <LinkButton
         link={"https://lnkd.in/esz2VXU3"}
         text={"Microsoft Power Automate Essential Training"}
+        target={"_blank"}
       />,
       <LinkButton
         link={"https://lnkd.in/eEc-F4yJ"}
         text={"From React to React Native"}
+        target={"_blank"}
       />,
       <LinkButton
         link={"https://lnkd.in/e_z-CkRi"}
         text={"Microsoft Power Platform App Maker (PL-100) Cert Prep"}
+        target={"_blank"}
       />,
     ],
   },

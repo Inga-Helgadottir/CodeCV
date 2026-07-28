@@ -89,6 +89,7 @@ export const ExperienceHeadingsAndParagraphs_dk = [
         text={
           "Teknika – Copenhagen Collage of Technology Management and Marine Engineering"
         }
+        target={"_blank"}
       />,
     ],
   },
@@ -102,6 +103,7 @@ export const ExperienceHeadingsAndParagraphs_dk = [
       <LinkButton
         link={"https://www.linkedin.com/in/karencuppers/"}
         text={"LinkedIn: Karen Thestrup Cuppers"}
+        target={"_blank"}
       />,
     ],
   },
@@ -115,6 +117,7 @@ export const ExperienceHeadingsAndParagraphs_dk = [
       <LinkButton
         link={"https://www.linkedin.com/in/christian-bo-christiansen-6095323/"}
         text={"LinkedIn: Christian Bo Christiansen"}
+        target={"_blank"}
       />,
     ],
   },
@@ -131,6 +134,7 @@ export const ExperienceHeadingsAndParagraphs_dk = [
           "https://www.linkedin.com/in/anne-marie-munk-j%C3%B8rgensen-9b929a5/"
         }
         text={"LinkedIn: Anne Marie Munk Jørgensen"}
+        target={"_blank"}
       />,
     ],
   },
@@ -143,17 +147,22 @@ export const EducationHeadingAndParagraphs_dk = [
     date: "(Januar 2021 – Juni 2023)",
     paragraphs: [
       "I løbet af min datamatikeruddannelse lærte jeg Java, SQL, oprettelse af REST API'er ved hjælp af Java Persistence API (JPA) og MYSQL, Unit and integration tests, Python, CD/CI, Maven, Docker, Apache Tomcat, de agile metoder, Extreme programming (XP) og Git (GitHub) i dybden. Jeg har brugt alle disse i mange forskellige projekter, normalt gennem IntelliJ IDEA, men jeg brugte også NetBeans et par gange. Jeg blev også introduceret til flere forskellige frameworks, libraries, værktøjer og sprog. Min uddannelse fokuserede på at hurtigt lære nye teknologier at kende og at bruge dem i mangle forskellige projekter.",
-      "Da det kom til eksamen i JPA lavede jeg et øvelsesprojekt som havde OneSide, OtherOneSide, ManySide, OtherManySide entities/Tables/Schemas, så jeg kunne lave alle de mulige relationer one to one, one to many and many to many. Her er linket til koden:",
-
-      <LinkButton
-        link={"https://github.com/Inga-Helgadottir/JPA-Notes"}
-        text={"GitHub: JPA-Notes"}
-      />,
-      "Mit Python eksamensprojekt var at lavet spillet Hangman, hvor man skulle gætte på enten Rick and Morty karakterers navn som jeg fik fra et gratis API jeg fandt online eller film navne fra en CSV-fil jeg fandt online. Jeg brugte også et Python library som hedder Pillow og kan hjælpe med UI delen af spillet. Her kan du se koden bag hangman er her:",
-
+      "Mit Python eksamensprojekt var at lavet spillet Hangman, hvor man skulle gætte på enten Rick and Morty karakterers navn som jeg fik fra et gratis API jeg fandt online eller film navne fra en CSV-fil jeg fandt online. Jeg brugte også et Python library som hedder Pillow og kan hjælpe med UI delen af spillet.",
+      "",
+      "Her kan du se koden bag hangman er her:",
       <LinkButton
         link={"https://github.com/Inga-Helgadottir/PythonEksamensProjekt"}
         text={"GitHub: PythonEksamensProjekt"}
+        target={"_blank"}
+      />,
+      "",
+      "For at få et bedre indblik i mine kompetencer kan du se på et JPA øvelsesprojekt jeg lavede for en eksamen. Dette projekt har entitetstabeller som OneSide, OtherOneSide, ManySide og OtherManySide, som jeg kan bruge til at få alle de forskellige relationer.",
+      "",
+      "Her kan du se koden bag prokjektet:",
+      <LinkButton
+        link={"https://github.com/Inga-Helgadottir/JPA-Notes"}
+        text={"GitHub: JPA-Notes"}
+        target={"_blank"}
       />,
     ],
   },
@@ -164,10 +173,19 @@ export const EducationHeadingAndParagraphs_dk = [
     date: "(Januar 2019 – Oktober 2020)",
     paragraphs: [
       "Under webudviklingsuddannelsen lærte jeg HTML, CSS, SASS, Bootstrap, JavaScript, Git (GitHub), JSON og hvordan man bruger REST API'er i dybden, ved at bruge hver af dem sammen i mange forskellige projekter ved hjælp af Visual Studio Code. Jeg blev også introduceret til flere forskellige frameworks, libraries, værktøjer og sprog.",
-      "Hver uge lavede vi en hjemmeside som handlede om vores yndlingsfilm, spil, album osv. Et af de mest mindeværdige projekter, jeg arbejdede på, var 40'ernes projektet. Der blev undervist i mange forskellige uddannelser i NEXT, og vi var alle delt op i teams, hvert hold med en front-end udvikler, UI/UX-designer, et par kostumedesignere, et par makeupartister og fotografer. Hvert hold fik et årti, og vi fik 40'erne. Vi arbejdede alle som et team for at lave en hjemmeside dedikeret til vores årti, som desværre ikke længere er online. For at få en bedre ide om, hvad vi har lært, kan du tage et kig på øvelsesarkivet, jeg oprettede for at blive klar til eksamen: ",
+      "Hver uge lavede vi en hjemmeside som handlede om vores yndlingsfilm, spil, album osv. Et af de mest mindeværdige projekter, jeg arbejdede på, var 40'ernes projektet. Der blev undervist i mange forskellige uddannelser i NEXT, og vi var alle delt op i teams, hvert hold med en front-end udvikler, UI/UX-designer, et par kostumedesignere, et par makeupartister og fotografer. Hvert hold fik et årti, og vi fik 40'erne. Vi arbejdede alle som et team for at lave en hjemmeside dedikeret til vores årti, som desværre ikke længere er online.",
+      "For at få en bedre ide om, hvad vi har lært, kan du tage et kig på øvelsesarkivet, jeg oprettede for at blive klar til eksamen: ",
       <LinkButton
         link={"https://github.com/SIngaH/practice"}
         text={"GitHub: practice"}
+        target={"_blank"}
+      />,
+      "",
+      "Du kan også se på dette projekt, jeg lavede under datamatikeren for at hjælpe mine klassekammerater under vores frontend-modul:",
+      <LinkButton
+        link={"https://github.com/Inga-Helgadottir/HtmlCssJavascripHelper/"}
+        text={"GitHub: HtmlCssJavascripHelper"}
+        target={"_blank"}
       />,
     ],
   },
@@ -177,6 +195,16 @@ export const EducationHeadingAndParagraphs_dk = [
     date: "(December 2017 –December 2018)",
     paragraphs: [
       "Jeg tog begge Engelsk A og Dansk 0-A, for at have det på skrift at jeg er fagligt flydende på begge sprog, Matematik B tog jeg for at gøre mig klar til webudvikleren og fordi jeg kan godt lide Matematik.",
+      <LinkButton
+        link={"https://vuclyngby.dk/"}
+        text={"VUC Lyngby hjemmeside"}
+        target={"_blank"}
+      />,
+      <LinkButton
+        link={"https://kvuc.dk/"}
+        text={"KVUC hjemmeside"}
+        target={"_blank"}
+      />,
     ],
   },
   {
@@ -186,7 +214,13 @@ export const EducationHeadingAndParagraphs_dk = [
     paragraphs: [
       "En produktionsskole er et sted, hvor man får penge for at lære og derefter bruger den viden til at generere ting, man senere kan sælge, jeg gik på fotograflinjen så selvfølgelig solgte jeg billeder. Skolen havde mange forskellige linjer for eksempel dans, restaurantdrift, træværksted og kampagne.",
       "Fotograflinjen og kampagnelinjen rejste til Jordan for at interviewe Syriske flygtninge, og da vi kom hjem, arbejdede vi tæt sammen om et velgørenhedsarrangement samt Ung Aktion, hvor vi indsamlede penge for at hjælpe dem. Jeg lavede roll-ups med billeder, QR-koder som ledte til videoer og links, hvor man kunne donere. Jeg designede også arrangementets logo, jeg har stadig t-shirten.",
-      "Her er nogle af de billeder jeg tog under den rejse og solgt for at hjælpe Syriske flygtninge. ",
+      "",
+      <LinkButton
+        link={"https://www.youtube.com/watch?v=4QO57kLz63I"}
+        text={"Her er et YouTube video der blev lavet omkring vores rejse"}
+        target={"_blank"}
+      />,
+      "Her er nogle af de billeder jeg tog under den rejse og solgt for at hjælpe Syriske flygtninge.",
       <Gallery />,
     ],
   },
@@ -198,11 +232,23 @@ export const CoursesHeadingAndParagraphs_dk = [
     position: "",
     date: "(April 2024 – Juni 2024)",
     paragraphs: [
-      "ExOpi Talent Academy er en 10-ugers kursus hvor jeg arbejdede på forskellige projektere til at vise dem hvad jeg kan imens jeg lærer nye ting og de hjælper med at finde et job til mig. Nogle af de opgaver jeg arbejdede på, var at lave spillet Blackjack ud af ReactJS og et Python projekt som kigger på en CSV-fil fyldt med linker til PDF filer, projektet kigger på disse links og hvis de er valide PDF-filer, skulle den downloade filen og hvis ikke bliver det link og informationer om hvorfor den ikke virker i en anden CSV-fil. I dette projekt brugte jeg multithreading for at kunne gennemgå de 250 links givet på 2 minutter i stedet for 3 timer, som det tog før multithreading. For at se koden bag disse 2 projekter kan du kigge på: https://github.com/Inga-Helgadottir/ExopiTalentAcademyProjects/, de andre projekter er privat, da det indeholder sensitive informationer.",
+      "ExOpi Talent Academy er en 10-ugers kursus hvor jeg arbejdede på forskellige projektere til at vise dem hvad jeg kan imens jeg lærer nye ting og de hjælper med at finde et job til mig. Nogle af de opgaver jeg arbejdede på, var at lave spillet Blackjack ud af ReactJS og et Python projekt som kigger på en CSV-fil fyldt med linker til PDF filer, projektet kigger på disse links og hvis de er valide PDF-filer, skulle den downloade filen og hvis ikke bliver det link og informationer om hvorfor den ikke virker i en anden CSV-fil. I dette projekt brugte jeg multithreading for at kunne gennemgå de 250 links givet på 2 minutter i stedet for 3 timer, som det tog før multithreading.",
+      "For at se koden bag disse 2 projekter kan du kigge på, de andre projekter er privat, da de enten indeholder noget der ikke giver mening at gemme på GitHub eller sensitive informationer.",
+      <LinkButton
+        link={"https://github.com/Inga-Helgadottir/ExopiTalentAcademyProjects/"}
+        text={"GitHub: ExopiTalentAcademyProjects"}
+        target={"_blank"}
+      />,
       "Jonas Rasmusen er lederen af Talentakademi og Innovation hos ExOpi og Bina Hjorth Reichstein er deres CEO og de er begge klar til at give en reference hvis I vil have den.",
+      <LinkButton
+        link={"https://www.linkedin.com/in/jonas-rasmussen-297a18b9/"}
+        text={"LinkedIn: Jonas Rasmusen"}
+        target={"_blank"}
+      />,
       <LinkButton
         link={"https://www.exopi.dk/talent-acedemy/"}
         text={"ExOpi Talent Academy"}
+        target={"_blank"}
       />,
     ],
   },
@@ -217,6 +263,7 @@ export const CoursesHeadingAndParagraphs_dk = [
           "https://nyledige.dk/kurser/systemadministration-it-sikkerhed-og-certificeringer/comptia/it-sikkerhedskursus/"
         }
         text={"CompTIA Security+"}
+        target={"_blank"}
       />,
     ],
   },
@@ -228,22 +275,27 @@ export const CoursesHeadingAndParagraphs_dk = [
       <LinkButton
         link={"https://lnkd.in/eS6tde62"}
         text={"TypeScript Essential Training"}
+        target={"_blank"}
       />,
       <LinkButton
         link={"https://lnkd.in/eEpDfyzt"}
         text={"Azure AI: The Big Picture (2023)"}
+        target={"_blank"}
       />,
       <LinkButton
         link={"https://lnkd.in/esz2VXU3"}
         text={"Microsoft Power Automate Essential Training"}
+        target={"_blank"}
       />,
       <LinkButton
         link={"https://lnkd.in/eEc-F4yJ"}
         text={"From React to React Native"}
+        target={"_blank"}
       />,
       <LinkButton
         link={"https://lnkd.in/e_z-CkRi"}
         text={"Microsoft Power Platform App Maker (PL-100) Cert Prep"}
+        target={"_blank"}
       />,
     ],
   },
