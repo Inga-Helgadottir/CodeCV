@@ -79,7 +79,7 @@ export const AboutMeHeadingAndParagraph_eng = [
 export const ExperienceHeadingsAndParagraphs_eng = [
   {
     location:
-      "Teknika – Copenhagen Collage of Technology Management and Marine Engineering",
+      "Teknika – Copenhagen College of Technology Management and Marine Engineering",
     position: "Guest Speaker",
     date: "(November 2024 and October 2025)",
     paragraphs: [
@@ -148,19 +148,23 @@ export const EducationHeadingAndParagraphs_eng = [
     date: "(January 2021 – June 2023)",
     paragraphs: [
       "During my Computer Science education, I learned Java, SQL, creating REST APIs using Java Persistence API (JPA) and MYSQL, CI/CD Unit and integration tests, Python, Maven, Docker, Apache Tomcat, the Agile methodologies, Extreme programming (XP) and Git (GitHub) in depth. I have used all of these in many different projects, usually through IntelliJ IDEA but I also used NetBeans a few times. I was also introduced to multiple different frameworks, libraries, tools, and languages. My education was centred around me being able to quickly learn new languages, tools, and technologies and use them in various projects.",
-      "My exam project in Python was to make Hangman, using the Rick and Morty API and some Movie data in csv format as the guess words. Then I used Pillow, which is a python library to make the UI part of the hangman game.",
-      "This is the repository for that project: ",
+      "To see some of my JPA skills you can check out this project I created for my test in the subject. This project includes entity tables such as OneSide, OtherOneSide, ManySide, and OtherManySide, which model the different relationships in the database.",
+      <LinkButton
+        link={"https://github.com/Inga-Helgadottir/JPA-Notes"}
+        text={"GitHub: JPA-Notes"}
+        target={"_blank"}
+      />,
+      "I also took a Python elective where my exam project in was to make the game Hangman, using the Rick and Morty API and some Movie data in csv format as the guess words. Then I used Pillow, which is a python library to make the UI part of the hangman game.",
+      "This is the repository for that project:",
       <LinkButton
         link={"https://github.com/Inga-Helgadottir/PythonEksamensProjekt"}
         text={"GitHub: PythonEksamensProjekt"}
         target={"_blank"}
       />,
-      "",
-      "To get a better idea of my skills you can also check out the practice project I created before my exam in JPA. This project includes entity tables such as OneSide, OtherOneSide, ManySide, and OtherManySide, which model the different relationships in the database.",
-      "Her kan du se koden bag prokjektet:",
+      "Here you can see our exercises:",
       <LinkButton
-        link={"https://github.com/Inga-Helgadottir/JPA-Notes"}
-        text={"GitHub: JPA-Notes"}
+        link={"https://github.com/Inga-Helgadottir/PythonOpgaver"}
+        text={"GitHub: PythonOpgaver"}
         target={"_blank"}
       />,
     ],

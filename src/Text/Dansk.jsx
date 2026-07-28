@@ -40,11 +40,11 @@ export const AboutMeHeadingAndParagraph_dk = [
     position: "",
     date: "",
     paragraphs: [
-      "Jeg er en uddannet Full-stack udvikler (back-end og front-end udvikler) som elsker at kode. Jeg er en nørd med en passion for at lære nye ting og med kode ved jeg at man løber aldrig tør for nye ting at lære. Jeg fortrækker at gennemtænke min funktionalitet før jeg starter med at kode, så jeg kan få den reneste og smarteste kode muligt. Min fokus er altid at gøre det nemmest muligt for brugeren at forstå og bruge løsningen, samt gør koden nem at opdatere i fremtiden da flere features bliver tilføjet eller da bedre teknologier kommer frem. Jeg kan bedst lide at arbejde Agilt, hvor alt er planlagt og jeg kan også lide da der kommer nye ændringer, midt i projektet. Hos Furesø kommune  arbejdede jeg med folk fra mange forskellig e afdelinger for at lave værktøj for at gøre deres hverdage nemmere. De fortalte mig hvad de manglede og jeg fandt ude af hvordan jeg kunne lave en løsning til dem.",
-      "Jeg er ærlig, venlig, kreativ og er god til at være upartisk og fair. Jeg arbejder godt alene og som en del af en gruppe. Jeg har meget erfaring med at forklare kode relaterede ting til mennesker som ved lidt eller intet om kode eller computere i det hele taget.",
-      "Jeg har altid været god til at huske; jeg har endda lært et sæt spillekort udenad én gang i løbet af to dage. Nogle tal sidder endda fast for livet, som for eksempel dette nummer 0118 999 88199 9119 725 3 fra et tv-program kaldet 'The IT crowd'. Udenover kodning kan jeg lide at være sammen med venner, male, tage billeder, bage og at spille alle slags spil. Jeg elsker naturen, dyr og at hjælpe andre.",
+      "Jeg er en uddannet Full-stack udvikler (back-end og front-end udvikler) som elsker at kode. Jeg er en nørd med en passion for at lære nye ting og med kode ved jeg, at man aldrig løber tør for nye ting at lære. Jeg foretrækker at gennemtænke min funktionalitet før jeg starter med at kode, så jeg kan få den reneste og smarteste kode muligt. Mit fokus er altid at gøre det nemmest muligt for brugeren at forstå og bruge løsningen, samt gør koden nem at opdatere i fremtiden da flere features bliver tilføjet eller da bedre teknologier kommer frem. Jeg kan bedst lide at arbejde agilt, hvor alt er planlagt og jeg kan også lide da der kommer nye ændringer, midt i projektet. Hos Furesø kommune arbejdede jeg med folk fra mange forskellige afdelinger for at lave værktøj for at gøre deres hverdage nemmere. De fortalte mig hvad de manglede og jeg fandt ud af hvordan jeg kunne lave en løsning til dem.",
+      "Jeg er ærlig, venlig, kreativ og er god til at være upartisk og fair. Jeg arbejder godt alene og som en del af en gruppe. Jeg har meget erfaring med at forklare kode-relaterede ting til mennesker der ved lidt eller intet om kode eller computere i det hele taget.",
+      "Jeg har altid været god til at huske; jeg har endda lært et sæt spillekort udenad én gang i løbet af to dage. Nogle tal sidder endda fast for livet, som for eksempel dette nummer 0118 999 88199 9119 725 3 fra et tv-program kaldet 'The IT crowd'. Udover kodning kan jeg lide at være sammen med venner, male, tage billeder, bage og at spille alle slags spil. Jeg elsker naturen, dyr og at hjælpe andre.",
       "",
-      "Jeg har to GitHub-konti: en, jeg oprettede under webudvikleren, og en, jeg har brugt, siden jeg startede på datamatiker uddannelsen.",
+      "Jeg har to GitHub-konti: en, jeg oprettede under webudvikleren, og en, jeg har brugt, siden jeg startede på datamatikeruddannelsen.",
       <LinkButton
         link={"https://github.com/SIngaH"}
         text={"Min webudvikler GitHub konto"}
@@ -79,11 +79,12 @@ export const AboutMeHeadingAndParagraph_dk = [
 export const ExperienceHeadingsAndParagraphs_dk = [
   {
     location:
-      "Teknika – Copenhagen Collage of Technology Management and Marine Engineering",
+      "Teknika – Copenhagen College of Technology Management and Marine Engineering",
     position: "Gæsteforelæser",
     date: "(November 2024 og oktober 2025)",
     paragraphs: [
-      "Jeg blev to gange tilbudt at holde en præsentation for studerende på Teknika. Min første præsentation handlede om Git, GitHub og grundlæggende Python. Den anden præsentation fokuserede på at gå lidt dybere ind i Python og grundlæggende API'er, HTML, CSS og vanilla JavaScript. Begge præsentationer indeholdt øvelser og blev afholdt for studerende på 8. semester tilmeldt IT-linjen.",
+      "Jeg blev to gange tilbudt at holde en præsentation for studerende på Teknika. Min første præsentation handlede om Git, GitHub og grundlæggende Python. Den anden præsentation fokuserede på at gå lidt dybere ind i Python og grundlæggende viden omkring API'er, HTML, CSS og vanilla JavaScript.",
+      "Begge præsentationer indeholdt øvelser og blev afholdt for studerende på 8. semester tilmeldt IT-linjen.",
       <LinkButton
         link={"https://teknika.dk/"}
         text={
@@ -98,7 +99,7 @@ export const ExperienceHeadingsAndParagraphs_dk = [
     position: "Full-stack udvikler",
     date: "(August 2024 – Oktober 2024)",
     paragraphs: [
-      "Jeg startede mit praktikforløb hos Furesø kommunes digitaliserings afdeling, den 26ende august og skulle være der i 4 uger, men de bad mig om at blive i 4 uger til, så jeg kunne færdiggøre min opgave og kigge på en anden opgave til. I starten af praktikforløbet fik jeg en Excel fil og blev bedt om at gøre indholdet søgbart. Der var ikke så mange detaljer i starten da de var ikke helt sikker hvad det var de manglede, så hver uge mødtes jeg med en lille gruppe som gav bedre indblik i hvad gav mening i forhold til hvad det var de manglede. Jeg byggede brugergrænsefladen i ReactJS og til et møde fandt de så ud af at alle filerne som man skulle kunne downloade, var i mange forskellige filformater med de skulle alle være i PDF-format, så jeg lavede et lille program i Python for at konvertere dem. Da jeg blev færdig med opgaven, havde jeg lidt mere tid så jeg lavede også et lille Python program som kombinerede nogle Excel filer baserede på et par kolonner.",
+      "Jeg startede mit praktikforløb hos Furesø kommunes digitaliserings afdeling, den 26ende august og skulle være der i 4 uger, men de bad mig om at blive i 4 uger til, så jeg kunne færdiggøre min opgave og kigge på en anden opgave til. I starten af praktikforløbet fik jeg en Excel-fil og blev bedt om at gøre indholdet søgbart. I starten var der meget usikkerhed omkring hvad, specifikt man skulle kunne søge på (dato, overskrift, indhold...), så hver uge mødtes jeg med en lille gruppe med det jeg havde lavet indtil videre og derfra fandt vi sammen ude af hvad der passer bedst til formålet. Jeg byggede brugergrænsefladen i ReactJS og til et møde fandt de så ud af at alle filerne som man skulle kunne downloade, var i mange forskellige filformater men de skulle alle downloades i PDF-format, så jeg lavede et lille program i Python for at konvertere dem. Da jeg blev færdig med opgaven, havde jeg lidt mere tid, så jeg lavede også et lille Python program som kombinerede nogle Excel-filer baserede på et par kolonner.",
       "Karen Thestrup Cuppers (Webmaster) har skrevet en anmeldelse på LinkedIn: Jeg har haft fornøjelse af at arbejde sammen med Inga i Furesø Kommune. Inga har på kort tid kortlagt og eksekveret et større dataprojekt, som ligeledes blev udbygget undervejs som en naturlig del af projektets udvikling og interessenters input. Stor tak til Inga for hendes omstillingsparathed og gode samarbejde. ",
       <LinkButton
         link={"https://www.linkedin.com/in/karencuppers/"}
@@ -109,11 +110,11 @@ export const ExperienceHeadingsAndParagraphs_dk = [
   },
   {
     location: "Furesø kommune",
-    position: "RPA udvikler (Robotbaseret procesautomatisering)",
+    position: "RPA-udvikler (Robotbaseret procesautomatisering)",
     date: "(December 2024 – Juni 2025)",
     paragraphs: [
-      "Kort efter min praktik sluttede blev jeg kontaktet af Furesø kommune igen for en midlertidig stilling for at hjælpe deres RPA udvikler. Under min anden uge der havde jeg fået styr på at lave og opdatere robotter i Power automate, resten af min første 4 uger blev jeg introduceret til deres vigtigste robotter. Efter min fjerde uge stoppede deres RPA udvikler og efter det skulle jeg holde styr på deres 90 robotter alene. Jeg arbejdede for det meste i Power automate, men brugte regelmæssigt HTML og CSS for at formatere mails og Python scripts for de mere komplicerede funktioner.",
-      "Min chef der, Christian Bo Christiansen har skrevet en anmeldelse på LinkedIn: Jeg har været leder for og arbejdet sammen med Inga i Furesø Kommune. Inga vedligeholdte og udviklede RPA- løsninger i økonomiafdelingen. Inga havde begrænset erfaring med RPA, da hun startede, men lærte meget hurtigt at løse opgaverne med den daglige drift og udvikling af nye løsninger i Power Automate. Inga var ansvarsfuld omkring sine opgaver, god at arbejde sammen med og hun deltog også gerne afdelings sociale liv. Hvis du/I har Inga i spil til et job, så tag gerne kontakt.",
+      "Kort efter min praktik sluttede, blev jeg kontaktet af Furesø kommune igen for en midlertidig stilling for at hjælpe deres RPA-udvikler. Under min anden uge der havde jeg fået styr på at lave og opdatere robotter i Power Automate, resten af mine første 4 uger blev jeg introduceret til deres vigtigste robotter. Efter min fjerde uge stoppede deres RPA-udvikler og efter det, skulle jeg holde styr på deres 90 robotter alene. Jeg arbejdede for det meste i Power Automate, men brugte regelmæssigt HTML og CSS for at formatere mails og Python scripts for de mere komplicerede funktioner.",
+      "Min chef, Christian Bo Christiansen har skrevet en anmeldelse på LinkedIn: Jeg har været leder for og arbejdet sammen med Inga i Furesø Kommune. Inga vedligeholdte og udviklede RPA- løsninger i økonomiafdelingen. Inga havde begrænset erfaring med RPA, da hun startede, men lærte meget hurtigt at løse opgaverne med den daglige drift og udvikling af nye løsninger i Power Automate. Inga var ansvarsfuld omkring sine opgaver, god at arbejde sammen med og hun deltog også gerne afdelings sociale liv. Hvis du/I har Inga i spil til et job, så tag gerne kontakt.",
       <LinkButton
         link={"https://www.linkedin.com/in/christian-bo-christiansen-6095323/"}
         text={"LinkedIn: Christian Bo Christiansen"}
@@ -123,11 +124,11 @@ export const ExperienceHeadingsAndParagraphs_dk = [
   },
   {
     location: "Danmarks Meteorologiske Institut",
-    position: "Front-End udvikler",
+    position: "front-end udvikler",
     date: "(Februar 2023 - Juni 2023)",
     paragraphs: [
-      "Som en del af min Datamatiker uddannelse tog jeg praktik og hovedopgaveforløb hos DMI. Der arbejdede jeg på at opdatere en af deres hjemmesider som hedder vejvejr, da deres forrige version var blevet forældet. Den nye version blev lavet som en Single Page Application lavet med ReactJS, samt mange frameworks, værktøjer og komponent libraries og med GitLab som hosting platform.",
-      "Under praktikperioden lavede jeg og min praktik partner mulighed for at lave overvågning af brugerdefinerede alarmer. Under hovedopgaveforløbet brugte jeg og min praktik partner moderne visualiserings værktøjer til at fremvise vejrstationer, beliggende forskellige steder rundt i Danmark samt deres parametre (tværvind og vindstød) på et kort. I enden af forløbet fik vi en meget god respons fra DMI, samt vores lærer og censor under eksamener.",
+      "Som en del af min Datamatiker uddannelse tog jeg praktik og hovedopgaveforløb hos DMI. Der arbejdede jeg på at opdatere en af deres hjemmesider som der hedder VejVejr, da deres forrige version var blevet forældet. Den nye version blev lavet som en Single Page Application i ReactJS, samt mange frameworks, værktøjer og komponentbiblioteker og med GitLab som hosting platform.",
+      "Under praktikperioden lavede jeg og min praktikpartner mulighed for at lave overvågning af brugerdefinerede alarmer. Under hovedopgaveforløbet brugte jeg og min praktikpartner moderne visualiseringsværktøjer til at fremvise vejrstationer, beliggendede forskellige steder rundt i Danmark samt deres parametre (tværvind og vindstød) på et kort. I enden af forløbet fik vi en meget god respons fra DMI, samt vores lærer og censor under eksamener.",
       "Anne Marie Munk Jørgensen, leder af Rådgivning og Digitalisering hos DMI var min vejleder i praktikperioden og vil meget gerne give reference til dem der ønsker.",
       <LinkButton
         link={
@@ -147,21 +148,24 @@ export const EducationHeadingAndParagraphs_dk = [
     date: "(Januar 2021 – Juni 2023)",
     paragraphs: [
       "I løbet af min datamatikeruddannelse lærte jeg Java, SQL, oprettelse af REST API'er ved hjælp af Java Persistence API (JPA) og MYSQL, Unit and integration tests, Python, CD/CI, Maven, Docker, Apache Tomcat, de agile metoder, Extreme programming (XP) og Git (GitHub) i dybden. Jeg har brugt alle disse i mange forskellige projekter, normalt gennem IntelliJ IDEA, men jeg brugte også NetBeans et par gange. Jeg blev også introduceret til flere forskellige frameworks, libraries, værktøjer og sprog. Min uddannelse fokuserede på at hurtigt lære nye teknologier at kende og at bruge dem i mangle forskellige projekter.",
-      "Mit Python eksamensprojekt var at lavet spillet Hangman, hvor man skulle gætte på enten Rick and Morty karakterers navn som jeg fik fra et gratis API jeg fandt online eller film navne fra en CSV-fil jeg fandt online. Jeg brugte også et Python library som hedder Pillow og kan hjælpe med UI delen af spillet.",
+      "For at se mine kompetencer indenfor JPA, kan du se på et JPA øvelsesprojekt jeg lavede for at øve mig til eksamen. Projektet har entitetstabeller som OneSide, OtherOneSide, ManySide og OtherManySide, som jeg kan bruge til at få alle de forskellige relationer:",
+      <LinkButton
+        link={"https://github.com/Inga-Helgadottir/JPA-Notes"}
+        text={"GitHub: JPA-Notes"}
+        target={"_blank"}
+      />,
       "",
-      "Her kan du se koden bag hangman er her:",
+      "Jeg tog også et Python valgfag, mit eksamensprojekt var at lavet spillet Hangman, hvor man skulle gætte på enten Rick and Morty karakterers navn som jeg fik fra et gratis API eller film navne fra en CSV-fil jeg fandt online. Jeg brugte også et Python library som hedder Pillow og kan hjælpe med UI delen af spillet.",
+      "Her kan du se koden bag Hangman er:",
       <LinkButton
         link={"https://github.com/Inga-Helgadottir/PythonEksamensProjekt"}
         text={"GitHub: PythonEksamensProjekt"}
         target={"_blank"}
       />,
-      "",
-      "For at få et bedre indblik i mine kompetencer kan du se på et JPA øvelsesprojekt jeg lavede for en eksamen. Dette projekt har entitetstabeller som OneSide, OtherOneSide, ManySide og OtherManySide, som jeg kan bruge til at få alle de forskellige relationer.",
-      "",
-      "Her kan du se koden bag prokjektet:",
+      "Her kan du se vores opgaver:",
       <LinkButton
-        link={"https://github.com/Inga-Helgadottir/JPA-Notes"}
-        text={"GitHub: JPA-Notes"}
+        link={"https://github.com/Inga-Helgadottir/PythonOpgaver"}
+        text={"GitHub: PythonOpgaver"}
         target={"_blank"}
       />,
     ],
@@ -217,7 +221,7 @@ export const EducationHeadingAndParagraphs_dk = [
       "",
       <LinkButton
         link={"https://www.youtube.com/watch?v=4QO57kLz63I"}
-        text={"Her er et YouTube video der blev lavet omkring vores rejse"}
+        text={"Her er et YouTube videoen der blev lavet omkring vores rejse"}
         target={"_blank"}
       />,
       "Her er nogle af de billeder jeg tog under den rejse og solgt for at hjælpe Syriske flygtninge.",
@@ -232,7 +236,7 @@ export const CoursesHeadingAndParagraphs_dk = [
     position: "",
     date: "(April 2024 – Juni 2024)",
     paragraphs: [
-      "ExOpi Talent Academy er en 10-ugers kursus hvor jeg arbejdede på forskellige projektere til at vise dem hvad jeg kan imens jeg lærer nye ting og de hjælper med at finde et job til mig. Nogle af de opgaver jeg arbejdede på, var at lave spillet Blackjack ud af ReactJS og et Python projekt som kigger på en CSV-fil fyldt med linker til PDF filer, projektet kigger på disse links og hvis de er valide PDF-filer, skulle den downloade filen og hvis ikke bliver det link og informationer om hvorfor den ikke virker i en anden CSV-fil. I dette projekt brugte jeg multithreading for at kunne gennemgå de 250 links givet på 2 minutter i stedet for 3 timer, som det tog før multithreading.",
+      "ExOpi Talent Academy er en 10-ugers kursus hvor jeg arbejdede på forskellige projekter til at vise dem hvad jeg kan imens jeg lærer nye ting og de hjælper med at finde et job til mig. Nogle af de opgaver jeg arbejdede på, var at lave spillet Blackjack ud af ReactJS og et Python projekt som kigger på en CSV-fil fyldt med linker til PDF filer, projektet kigger på disse links og hvis de er valide PDF-filer, skulle den downloade filen og hvis ikke bliver det link og informationer om hvorfor den ikke virker i en anden CSV-fil. I dette projekt brugte jeg multithreading for at kunne gennemgå de 250 links givet på 2 minutter i stedet for 3 timer, som det tog før multithreading.",
       "For at se koden bag disse 2 projekter kan du kigge på, de andre projekter er privat, da de enten indeholder noget der ikke giver mening at gemme på GitHub eller sensitive informationer.",
       <LinkButton
         link={"https://github.com/Inga-Helgadottir/ExopiTalentAcademyProjects/"}
@@ -303,7 +307,7 @@ export const CoursesHeadingAndParagraphs_dk = [
 
 export const NoPage_dk = {
   heading: "Der er intet på denne side",
-  content: "Tilbage til start siden",
+  content: "Tilbage til startside",
 };
 
 export const FooterHeading_dk = "Kontaktoplysninger";
