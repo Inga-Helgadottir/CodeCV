@@ -1,6 +1,12 @@
 import Gallery from "../Components/PageParts/Gallery";
 import LinkButton from "../Components/PageParts/LinkButton";
 
+const flexRowStyle = {
+  display: "flex",
+  flexDirection: "row",
+  flexWrap: "wrap",
+};
+
 export const HeaderHeading_eng = "Full-stack developer";
 
 export const HeaderContent_eng =
@@ -45,28 +51,32 @@ export const AboutMeHeadingAndParagraph_eng = [
       "I have always been good at memorization; I have even memorized a deck of cards in the span of two days a few years ago. Some numbers even get stuck for life, like this number 0118 999 88199 9119 725 3 from a TV show called “The IT crowd”. I am an honest, kind, and creative person, who is good at being impartial and fair. I work well both independently and as a part of a group. I have had a lot of practice explaining code related things to people who know nothing about code or even computers in general. Outside of coding, I enjoy hanging out with friends, painting, taking pictures, baking, solving puzzles and playing all kinds of games. I love nature, animals and helping others. ",
       "",
       "I have two GitHub accounts, one I made during my webdeveloper education and one I have used since I started my Computer science education.",
-      <LinkButton
-        link={"https://github.com/SIngaH"}
-        text={"My webdeveloper GitHub account"}
-        target={"_blank"}
-      />,
-      <LinkButton
-        link={"https://github.com/Inga-Helgadottir"}
-        text={"My computer science GitHub account"}
-        target={"_blank"}
-      />,
+      <div style={flexRowStyle}>
+        <LinkButton
+          link={"https://github.com/SIngaH"}
+          text={"My webdeveloper GitHub account"}
+          target={"_blank"}
+        />
+        <LinkButton
+          link={"https://github.com/Inga-Helgadottir"}
+          text={"My computer science GitHub account"}
+          target={"_blank"}
+        />
+      </div>,
       "",
       "Here is my contact information",
-      <LinkButton
-        link={"https://www.linkedin.com/in/inga-helgadottir/"}
-        text={"My LinkedIn profile"}
-        target={"_blank"}
-      />,
-      <LinkButton
-        link={"mailto:s.inga.helgadottir95@gmail.com"}
-        text={"My email"}
-        target={"_blank"}
-      />,
+      <div style={flexRowStyle}>
+        <LinkButton
+          link={"https://www.linkedin.com/in/inga-helgadottir/"}
+          text={"My LinkedIn profile"}
+          target={"_blank"}
+        />
+        <LinkButton
+          link={"mailto:s.inga.helgadottir95@gmail.com"}
+          text={"My email"}
+          target={"_blank"}
+        />
+      </div>,
     ],
   },
   {
@@ -83,9 +93,11 @@ export const AboutMeHeadingAndParagraph_eng = [
       />,
       "",
       "Additional information available on this site includes:",
-      <LinkButton link={"/Experience"} text={"My experience"} />,
-      <LinkButton link={"/Education"} text={"My education"} />,
-      <LinkButton link={"/Courses"} text={"The courses I have taken"} />,
+      <div style={flexRowStyle}>
+        <LinkButton link={"/Experience"} text={"My experience"} />
+        <LinkButton link={"/Education"} text={"My education"} />
+        <LinkButton link={"/Courses"} text={"The courses I have taken"} />
+      </div>,
     ],
   },
 ];
@@ -257,16 +269,18 @@ export const CoursesHeadingAndParagraphs_eng = [
       />,
       "Jonas Rasmusen is the head of Talent Academy and Innovation at ExOpi and Bina Hjorth Reichstein is their CEO, and they are both ready to give a reference if you want it.",
       "Here are some of the projects I worked on during those 10 weeks:",
-      <LinkButton
-        link={"https://www.linkedin.com/in/jonas-rasmussen-297a18b9/"}
-        text={"LinkedIn: Jonas Rasmusen"}
-        target={"_blank"}
-      />,
-      <LinkButton
-        link={"https://www.exopi.dk/talent-acedemy/"}
-        text={"ExOpi Talent Academy"}
-        target={"_blank"}
-      />,
+      <div style={flexRowStyle}>
+        <LinkButton
+          link={"https://www.linkedin.com/in/jonas-rasmussen-297a18b9/"}
+          text={"LinkedIn: Jonas Rasmusen"}
+          target={"_blank"}
+        />
+        <LinkButton
+          link={"https://www.exopi.dk/talent-acedemy/"}
+          text={"ExOpi Talent Academy"}
+          target={"_blank"}
+        />
+      </div>,
     ],
   },
   {

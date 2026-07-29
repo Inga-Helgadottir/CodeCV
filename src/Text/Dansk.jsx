@@ -1,6 +1,12 @@
 import Gallery from "../Components/PageParts/Gallery";
 import LinkButton from "../Components/PageParts/LinkButton";
 
+const flexRowStyle = {
+  display: "flex",
+  flexDirection: "row",
+  flexWrap: "wrap",
+};
+
 export const HeaderHeading_dk = "Full-stack udvikler";
 
 export const HeaderContent_dk =
@@ -45,33 +51,32 @@ export const AboutMeHeadingAndParagraph_dk = [
       "Jeg har altid været god til at huske; jeg har endda lært et sæt spillekort udenad én gang i løbet af to dage. Nogle tal sidder endda fast for livet, som for eksempel dette nummer 0118 999 88199 9119 725 3 fra et tv-program kaldet 'The IT crowd'. Udover kodning kan jeg lide at være sammen med venner, male, tage billeder, bage og at spille alle slags spil. Jeg elsker naturen, dyr og at hjælpe andre.",
       "",
       "Jeg har to GitHub-konti: en, jeg oprettede under webudvikleren, og en, jeg har brugt, siden jeg startede på datamatikeruddannelsen.",
-      <LinkButton
-        link={"https://github.com/SIngaH"}
-        text={"Min webudvikler GitHub konto"}
-        target={"_blank"}
-      />,
-      <LinkButton
-        link={"https://github.com/Inga-Helgadottir"}
-        text={"Min datamatiker GitHub konto"}
-        target={"_blank"}
-      />,
-      "",
-      "I denne applikation finder du oplyninger omkring:",
-      <LinkButton link={"/Experience"} text={"Min erfaring"} />,
-      <LinkButton link={"/Education"} text={"Min uddannelse"} />,
-      <LinkButton link={"/Courses"} text={"De kurser jeg har taget"} />,
+      <div style={flexRowStyle}>
+        <LinkButton
+          link={"https://github.com/SIngaH"}
+          text={"Min webudvikler GitHub konto"}
+          target={"_blank"}
+        />
+        <LinkButton
+          link={"https://github.com/Inga-Helgadottir"}
+          text={"Min datamatiker GitHub konto"}
+          target={"_blank"}
+        />
+      </div>,
       "",
       "Her er mine kontakt oplysninger",
-      <LinkButton
-        link={"https://www.linkedin.com/in/inga-helgadottir/"}
-        text={"Min LinkedIn profil"}
-        target={"_blank"}
-      />,
-      <LinkButton
-        link={"mailto:s.inga.helgadottir95@gmail.com"}
-        text={"Min email"}
-        target={"_blank"}
-      />,
+      <div style={flexRowStyle}>
+        <LinkButton
+          link={"https://www.linkedin.com/in/inga-helgadottir/"}
+          text={"Min LinkedIn profil"}
+          target={"_blank"}
+        />
+        <LinkButton
+          link={"mailto:s.inga.helgadottir95@gmail.com"}
+          text={"Min email"}
+          target={"_blank"}
+        />
+      </div>,
     ],
   },
   {
@@ -88,9 +93,11 @@ export const AboutMeHeadingAndParagraph_dk = [
       />,
       "",
       "Yderligere information på dette websted omfatter:",
-      <LinkButton link={"/Experience"} text={"My experience"} />,
-      <LinkButton link={"/Education"} text={"My education"} />,
-      <LinkButton link={"/Courses"} text={"The courses I have taken"} />,
+      <div style={flexRowStyle}>
+        <LinkButton link={"/Experience"} text={"My experience"} />
+        <LinkButton link={"/Education"} text={"My education"} />
+        <LinkButton link={"/Courses"} text={"The courses I have taken"} />
+      </div>,
     ],
   },
 ];
@@ -263,16 +270,18 @@ export const CoursesHeadingAndParagraphs_dk = [
         target={"_blank"}
       />,
       "Jonas Rasmusen er lederen af Talentakademi og Innovation hos ExOpi og Bina Hjorth Reichstein er deres CEO og de er begge klar til at give en reference hvis I vil have den.",
-      <LinkButton
-        link={"https://www.linkedin.com/in/jonas-rasmussen-297a18b9/"}
-        text={"LinkedIn: Jonas Rasmusen"}
-        target={"_blank"}
-      />,
-      <LinkButton
-        link={"https://www.exopi.dk/talent-acedemy/"}
-        text={"ExOpi Talent Academy"}
-        target={"_blank"}
-      />,
+      <div style={flexRowStyle}>
+        <LinkButton
+          link={"https://www.linkedin.com/in/jonas-rasmussen-297a18b9/"}
+          text={"LinkedIn: Jonas Rasmusen"}
+          target={"_blank"}
+        />
+        <LinkButton
+          link={"https://www.exopi.dk/talent-acedemy/"}
+          text={"ExOpi Talent Academy"}
+          target={"_blank"}
+        />
+      </div>,
     ],
   },
   {
