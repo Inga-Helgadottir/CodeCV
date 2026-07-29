@@ -180,6 +180,12 @@ export const EducationHeadingAndParagraphs_eng = [
         text={"GitHub: JPA-Notes"}
         target={"_blank"}
       />,
+      "To see my Java skills, take a look at this project:",
+      <LinkButton
+        link={"https://github.com/Inga-Helgadottir/AIR-SP3/"}
+        text={"GitHub: AIR-SP3"}
+        target={"_blank"}
+      />,
       "I also took a Python elective where my exam project in was to make the game Hangman, using the Rick and Morty API and some Movie data in CSV format as the guess words. Then I used Pillow, which is a Python library to make the UI part of the hangman game.",
       "This is the repository for that project:",
       <LinkButton

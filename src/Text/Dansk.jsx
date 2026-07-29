@@ -180,6 +180,12 @@ export const EducationHeadingAndParagraphs_dk = [
         text={"GitHub: JPA-Notes"}
         target={"_blank"}
       />,
+      "For at se mine kompetencer indenfor Java, kan du se på dette projekt:",
+      <LinkButton
+        link={"https://github.com/Inga-Helgadottir/AIR-SP3/"}
+        text={"GitHub: AIR-SP3"}
+        target={"_blank"}
+      />,
       "",
       "Jeg tog også et Python valgfag, mit eksamensprojekt var at lavet spillet Hangman, hvor man skulle gætte på enten Rick and Morty karakterers navn som jeg fik fra et gratis API eller film navne fra en CSV-fil jeg fandt online. Jeg brugte også et Python library som hedder Pillow og kan hjælpe med UI delen af spillet.",
       "Her kan du se koden bag Hangman er:",
