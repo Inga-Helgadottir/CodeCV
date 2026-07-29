@@ -56,11 +56,6 @@ export const AboutMeHeadingAndParagraph_eng = [
         target={"_blank"}
       />,
       "",
-      "In this application there is information about:",
-      <LinkButton link={"/Experience"} text={"My experience"} />,
-      <LinkButton link={"/Education"} text={"My education"} />,
-      <LinkButton link={"/Courses"} text={"The courses I have taken"} />,
-      "",
       "Here is my contact information",
       <LinkButton
         link={"https://www.linkedin.com/in/inga-helgadottir/"}
@@ -72,6 +67,25 @@ export const AboutMeHeadingAndParagraph_eng = [
         text={"My email"}
         target={"_blank"}
       />,
+    ],
+  },
+  {
+    location: "About this website",
+    position: "",
+    date: "",
+    paragraphs: [
+      "This website was developed using React.js, with code hosted on GitHub and deployed via Netlify for seamless hosting and updates. It features a theme toggle functionality and allows users to switch between English and Danish. The custom SVG arrow icons were designed in-house to enhance visual consistency.",
+      "For a detailed overview of the code and its implementation, please refer to the README file in my GitHub repository:",
+      <LinkButton
+        link={"https://github.com/Inga-Helgadottir/CodeCV"}
+        text={"GitHub: CodeCV"}
+        target={"_blank"}
+      />,
+      "",
+      "Additional information available on this site includes:",
+      <LinkButton link={"/Experience"} text={"My experience"} />,
+      <LinkButton link={"/Education"} text={"My education"} />,
+      <LinkButton link={"/Courses"} text={"The courses I have taken"} />,
     ],
   },
 ];

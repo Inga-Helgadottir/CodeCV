@@ -74,6 +74,25 @@ export const AboutMeHeadingAndParagraph_dk = [
       />,
     ],
   },
+  {
+    location: "Om denne webside",
+    position: "",
+    date: "",
+    paragraphs: [
+      "Websiden er udviklet med React.js; koden hostes på GitHub og er udrullet via Netlify, hvilket sikrer problemfri hosting og opdateringer. Siden har en funktion til skift af tema og giver brugerne mulighed for at vælge mellem engelsk og dansk. De skræddersyede SVG-pileikoner er designet internt for at sikre en ensartet visuel stil.",
+      "For en detaljeret gennemgang af koden og dens implementering henvises til README-filen i mit GitHub-repository:",
+      <LinkButton
+        link={"https://github.com/Inga-Helgadottir/CodeCV"}
+        text={"GitHub: CodeCV"}
+        target={"_blank"}
+      />,
+      "",
+      "Yderligere information på dette websted omfatter:",
+      <LinkButton link={"/Experience"} text={"My experience"} />,
+      <LinkButton link={"/Education"} text={"My education"} />,
+      <LinkButton link={"/Courses"} text={"The courses I have taken"} />,
+    ],
+  },
 ];
 
 export const ExperienceHeadingsAndParagraphs_dk = [
