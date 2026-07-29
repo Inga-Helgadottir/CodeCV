@@ -83,6 +83,7 @@ You can view the live version hosted for free on [Netlify](https://inga-helgadot
   - **Footer**
   - **Gallery**
   - **Header**
+  - **LinkButton**
   - **NavBar**
   - **Section**
   - **UpdateLanguage**
@@ -227,6 +228,23 @@ document.documentElement.style.setProperty(
 - The header starts by creating useStates for the text
 - The header calls getText for the heading and the content
 - Then it returns an image of me, my name, the text, light and dark theme buttons and the update language section
+
+#### LinkButton
+
+- The LinkButton takes a link location, the text of the link and the target. (should the link be opened in a new window)
+- This is to style all the links in the same way
+
+```javascript
+const LinkButton = ({ link, text, target }) => {
+  return (
+    <button className="linkButton">
+      <a href={link} rel="noreferrer" target={target}>
+        {text}
+      </a>
+    </button>
+  );
+};
+```
 
 #### NavBar
 
