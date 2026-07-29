@@ -118,9 +118,9 @@ You can view the live version hosted for free on [Netlify](https://inga-helgadot
   {element.option?.map((section, key) => {
     return (
       <section key={key} className="section">
-        <h3>{section.location}</h3>
-        <p>{section.position}</p>
-        <p>{section.date}</p>
+        {section.location !== "" && <h3>{section.location}</h3>}
+        {section.position !== "" && <p>{section.position}</p>}
+        {section.date !== "" && <p>{section.date}</p>}
         {section.paragraphs?.map((paragraph, key) => {
           if (paragraph === "") {
             return <br />;
