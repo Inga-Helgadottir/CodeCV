@@ -40,11 +40,11 @@ export const AboutMeHeadingAndParagraph_eng = [
     position: "",
     date: "",
     paragraphs: [
-      "I am an educated Full-Stack developer (back-end and front-end developer) who loves coding. I am a nerd at heart with a passion for coding and learning new things and I know when you work with code, you will never run out of new things to learn. My main goal when coding is to make it easy for the user to understand how to use without having to read any documentation. I also like to make my code easy to read and update in the future, when new features need to be added or when new and better technologies become available. ",
-      "During my time at Furesø commune I worked with people from many different positions to create tools for them. They told me what they needed, and I figured out how to provide that. I enjoy using my skills to solve real-life problems. I prefer to think through the functionality before I start coding, so I get the best and cleanest code for the purpose. I like working with Agile methodologies, where everything is planned, and I even like getting a surprise new feature or alteration that needs to be added in the middle of a project. ",
-      "I have always been good at memorization; I have even memorized a deck of cards in the span of two days a few years ago. Some numbers even get stuck for life, like this number 0118 999 88199 9119 725 3 from a TV show called “The IT crowd”. I am an honest, kind, and creative person, who is good at being impartial and fair. I work well both independently and as a part of a group. I have had a lot of practice explaining code related things to people who know nothing about code or even computers in general. Outside of coding I enjoy hanging out with friends, painting, taking pictures, baking, solving puzzles and playing all kinds of games. I love nature, animals and helping others. ",
+      "I am an educated Full-stack developer (back-end and front-end developer) who loves coding. I am a nerd at heart with a passion for coding and learning new things. What I love most about coding is that, you will never run out of new things to learn. My main goal when coding is to make it easy for the user to understand how to use it without having to read any documentation. I also like to make my code easy to read and update in the future, when new features need to be added or when new and better technologies become available. ",
+      "During my time at Furesø Municipality I worked with people from many different positions to create tools for them. They told me what they needed, and I figured out how to provide that. I enjoy using my skills to solve real-life problems. I prefer to think through the functionality before I start coding, so I get the best and cleanest possible code for the purpose. I like working with agile methodologies, where everything is planned, and I even like getting a surprise new feature or alteration that needs to be added in the middle of a project. ",
+      "I have always been good at memorization; I have even memorized a deck of cards in the span of two days a few years ago. Some numbers even get stuck for life, like this number 0118 999 88199 9119 725 3 from a TV show called “The IT crowd”. I am an honest, kind, and creative person, who is good at being impartial and fair. I work well both independently and as a part of a group. I have had a lot of practice explaining code related things to people who know nothing about code or even computers in general. Outside of coding, I enjoy hanging out with friends, painting, taking pictures, baking, solving puzzles and playing all kinds of games. I love nature, animals and helping others. ",
       "",
-      "I have 2 GitHub accounts, one I made during my webdeveloper education and one I have used since I started my Computer science education.",
+      "I have two GitHub accounts, one I made during my webdeveloper education and one I have used since I started my Computer science education.",
       <LinkButton
         link={"https://github.com/SIngaH"}
         text={"My webdeveloper GitHub account"}
@@ -83,7 +83,7 @@ export const ExperienceHeadingsAndParagraphs_eng = [
     position: "Guest Speaker",
     date: "(November 2024 and October 2025)",
     paragraphs: [
-      "I was twice offered a chance to give a presentation for students at Teknika. My first presentation was about Git, GitHub, and basic Python. The second presentation was focused on going a little deeper into Python and learning the basics of APIs, HTML, CSS, and vanilla JavaScript. Both presentations included exercises and were held for the 8th-semester students enrolled in the IT program.",
+      "I was twice offered a chance to give a presentation for students at Teknika. My first presentation was about Git, GitHub, and basic Python. The second presentation was focused on going a little deeper into Python and learning the basics of APIs, HTML, CSS, and vanilla JavaScript. Both presentations included exercises and were held for the eighth-semester students enrolled in the IT program.",
       <LinkButton
         link={"https://teknika.dk/"}
         text={
@@ -94,12 +94,12 @@ export const ExperienceHeadingsAndParagraphs_eng = [
     ],
   },
   {
-    location: "Furesø kommune",
+    location: "Furesø Municipality",
     position: "Full-stack developer",
     date: "(August 2024 – October 2024)",
     paragraphs: [
-      "I started an internship at Furesø kommune digitization department on the 26th of August and was supposed to stay there for 4 weeks, but they asked me to stay another 4 weeks. Even though they don’t have enough coding projects to give me a job, they did have a few possible projects, one of which was making a very large CSV file easier to search through, as searching through the existing file was confusing and time consuming. I built the user interface for this data in ReactJS, I used Python to alter multiple different filetypes to pdfs files. I also used Python to join some Excel files together based on a few shared columns.",
-      "Karen Thestrup Cuppers (Webmaster) LinkedIn review: I have had the pleasure of working with Inga in Furesø Kommune. Inga has mapped out and executed a major data project in a short time, which was also expanded along the way as a natural part of the project's development and stakeholder input. Many thanks to Inga for her adaptability and good collaboration.",
+      "I started an internship at Furesø Municipality digitization department on August 26th and was supposed to stay there for 4 weeks, but they asked me to stay another 4 weeks. Even though they don’t have enough coding projects to give me a job, they did have a few possible projects, one of which was making a very large CSV file easier to search through, as searching through the existing file was confusing and time-consuming. I built the user interface for this data in ReactJS, I used Python to alter multiple different filetypes to PDF files. I also used Python to join some Excel files together based on a few shared columns.",
+      "Karen Thestrup Cuppers (Webmaster) LinkedIn review: I have had the pleasure of working with Inga in Furesø Municipality. Inga has mapped out and executed a major data project in a short time, which was also expanded along the way as a natural part of the project's development and stakeholder input. Many thanks to Inga for her adaptability and good collaboration.",
       <LinkButton
         link={"https://www.linkedin.com/in/karencuppers/"}
         text={"LinkedIn: Karen Thestrup Cuppers"}
@@ -108,12 +108,12 @@ export const ExperienceHeadingsAndParagraphs_eng = [
     ],
   },
   {
-    location: "Furesø kommune",
+    location: "Furesø Municipality",
     position: "RPA developer (Robotic Process Automation)",
     date: "(December 2024 – June 2025)",
     paragraphs: [
-      "Shortly after my internship ended, I was contacted by Furesø kommune for a temporary position helping their RPA developer (Robotic process automation). For the first 4 weeks I got a crash course in Power automate and some of the more important robots. By the second week I had gotten the hang of building and updating Power automate robots. The rest of the time I was taught about their most important robots, at the end of those 4 weeks their RPA developer quit, so I was on my own maintaining their many robots for months. I worked a lot in Power automate and regularly used HTML and CSS to format emails and Python scripts for the more advanced functions, that can be difficult to complete in Power automate alone.",
-      "My boss there, Christian Bo Christiansen LinkedIn review: I have been a manager for and worked with Inga in Furesø kommune. Inga maintained and developed RPA solutions in the finance department. Inga had limited experience with RPA when she started, but learned very quickly to solve the tasks with the daily operation and development of new solutions in Power Automate. Inga was responsible for her tasks, good to work with and she also enjoyed participating in the department's social life. If you have Inga in mind for a job, please get in touch.",
+      "Shortly after my internship ended, I was contacted by Furesø Municipality for a temporary position helping their RPA developer (Robotic process automation). For the first 4 weeks I got a crash course in Power Automate and some of the more important robots. By the second week I had gotten the hang of building and updating Power Automate robots. The rest of the time I was taught about their most important robots, at the end of those 4 weeks their RPA developer quit. After that I was on my own maintaining their 90 robots for months, with noone to ask for help. I worked a lot in Power Automate and regularly used HTML and CSS to format emails and Python scripts for the more advanced functions, that can be difficult to complete in Power Automate alone.",
+      "My boss there, Christian Bo Christiansen LinkedIn review: I have been a manager for and worked with Inga in Furesø Municipality. Inga maintained and developed RPA solutions in the finance department. Inga had limited experience with RPA when she started, but learned very quickly to solve the tasks with the daily operation and development of new solutions in Power Automate. Inga was responsible for her tasks, good to work with and she also enjoyed participating in the department's social life. If you have Inga in mind for a job, please get in touch.",
       <LinkButton
         link={"https://www.linkedin.com/in/christian-bo-christiansen-6095323/"}
         text={"LinkedIn: Christian Bo Christiansen"}
@@ -126,9 +126,9 @@ export const ExperienceHeadingsAndParagraphs_eng = [
     position: "Front-End developer",
     date: "(February 2023 - June 2023)",
     paragraphs: [
-      "As a part of my Computer Science education, me and one of my classmates got an internship at DMI. We worked on updating one of their websites called VejVejr as the old version had become outdated. This new version was a Single Page Application created with ReactJS and multiple frameworks and component libraries and as a code hosting platform, we used GitLab. We added functionality for monitoring user defined alarms and choosing how you are notified, either on the site, via SMS and/or email. For example, you could get notified if there is frost at a particular weather station, so you know when to salt the roads near that station.",
-      "We continued working for DMI through our main project as well, on the same site but a different tab. This time we worked on a tab that shows a map of all the weather stations in Denmark. There we used modern visualization tools to add two new parameters crosswind and wind gust to the map, showing the strength of the crosswind and wind gust, along with a graph over the readings from the last few hours at this station.",
-      "At the end of our main project, we showed the result of our work at a meeting with people from many different positions within DMI. The response we received was very positive, both from DMI’s employees and our teacher and censor during the exam.",
+      "As a part of my Computer Science education, one of my classmates and I got an internship at DMI. We worked on updating one of their websites called VejVejr as the old version had become outdated. This new version was a Single Page Application created with ReactJS and multiple frameworks and component libraries and as a code hosting platform, we used GitLab. We added functionality for monitoring user-defined alarms and choosing how you are notified, either on the site, via SMS and/or email. For example, you could get notified if there is frost at a particular weather station, so you know when to salt the roads near that station.",
+      "We continued working for DMI through our main project as well, on the same site but a different tab. This time we worked on a tab that shows a map of all the weather stations in Denmark. There we used modern visualization tools to add two new parameters crosswinds and wind gusts to the map, showing the strength of the crosswinds and wind gusts, along with a graph over the readings from the last few hours at this station.",
+      "At the end of our main project, we showed the result of our work at a meeting with people from many different positions within DMI. The response we received was very positive, both from DMI’s employees and our teacher and examiner during the exam.",
       "Anne Marie Munk Jørgensen is the leader of Consulting and Digitization at DMI and my mentor during the internship period and is willing to give a recommendation to those who want it.",
       <LinkButton
         link={
@@ -147,14 +147,14 @@ export const EducationHeadingAndParagraphs_eng = [
     position: "Computer science",
     date: "(January 2021 – June 2023)",
     paragraphs: [
-      "During my Computer Science education, I learned Java, SQL, creating REST APIs using Java Persistence API (JPA) and MYSQL, CI/CD Unit and integration tests, Python, Maven, Docker, Apache Tomcat, the Agile methodologies, Extreme programming (XP) and Git (GitHub) in depth. I have used all of these in many different projects, usually through IntelliJ IDEA but I also used NetBeans a few times. I was also introduced to multiple different frameworks, libraries, tools, and languages. My education was centred around me being able to quickly learn new languages, tools, and technologies and use them in various projects.",
-      "To see some of my JPA skills you can check out this project I created for my test in the subject. This project includes entity tables such as OneSide, OtherOneSide, ManySide, and OtherManySide, which model the different relationships in the database.",
+      "During my Computer Science education, I learned Java, SQL, creating REST APIs using Java Persistence API (JPA) and MYSQL, CI/CD Unit and integration tests, Python, Maven, Docker, Apache Tomcat, the agile methodologies, Extreme programming (XP) and Git (GitHub) in depth. I have used all of these in many different projects, usually through IntelliJ IDEA but I also used NetBeans a few times. I was also introduced to multiple different frameworks, libraries, tools, and languages. My education was centered around me being able to quickly learn new languages, tools, and technologies and use them in various projects.",
+      "To see some of my JPA skills, you can check out this project I created for my test in the subject. This project includes entity tables such as OneSide, OtherOneSide, ManySide, and OtherManySide, which model the different relationships in the database.",
       <LinkButton
         link={"https://github.com/Inga-Helgadottir/JPA-Notes"}
         text={"GitHub: JPA-Notes"}
         target={"_blank"}
       />,
-      "I also took a Python elective where my exam project in was to make the game Hangman, using the Rick and Morty API and some Movie data in csv format as the guess words. Then I used Pillow, which is a python library to make the UI part of the hangman game.",
+      "I also took a Python elective where my exam project in was to make the game Hangman, using the Rick and Morty API and some Movie data in CSV format as the guess words. Then I used Pillow, which is a Python library to make the UI part of the hangman game.",
       "This is the repository for that project:",
       <LinkButton
         link={"https://github.com/Inga-Helgadottir/PythonEksamensProjekt"}
@@ -196,7 +196,7 @@ export const EducationHeadingAndParagraphs_eng = [
     position: "Danish A, English A and Math B ",
     date: "(December 2017 –December 2018)",
     paragraphs: [
-      "I took both English A and Danish 0-A, to have it in writing that I am academically fluent in both languages, I took Math B to prepare for the web developer education and because I like Math.",
+      "I took both English A and Danish A, to have it in writing that I am academically fluent in both languages. I took Math B to prepare for the web developer education and because I like Math.",
       <LinkButton
         link={"https://vuclyngby.dk/"}
         text={"VUC Lyngby website"}
@@ -215,7 +215,7 @@ export const EducationHeadingAndParagraphs_eng = [
     date: "(January 2013 - June 2015)",
     paragraphs: [
       "A production school is where you get paid to learn and then use that knowledge to generate things you can later sell, as I was on the photography line, I sold pictures. The school had many different lines like dance, running a restaurant, woodshop and campaigning.",
-      "The photography line and the campaigning line took a trip to Jordan to interview Syrian refugees, when we came home, we worked closely together on a charity event, where we raised money to help them. I created roller banners with QR codes leading to videos and link where you could donate. I also designed the logo they used for everything; I still have the t-shirt.",
+      "The photography line and the campaigning line took a trip to Jordan to interview Syrian refugees, when we came home, we worked closely together on a charity event, where we raised money to help them. I created roller banners with QR codes leading to videos and links where you could donate. I also designed the logo they used for everything; I still have the t-shirt.",
       <LinkButton
         link={"https://www.youtube.com/watch?v=4QO57kLz63I"}
         text={"Here is a YouTube video about our trip"}
@@ -235,7 +235,7 @@ export const CoursesHeadingAndParagraphs_eng = [
     date: "(April 2024 – June 2024)",
     paragraphs: [
       "ExOpi Talent Academy is a 10-week course where we worked on projects to show what we can do, learn new skills and refine our own, while they also help us find a job. Some examples of my tasks during the course were data analysis, Excel manipulation, making Blackjack out of ReactJS and a Python project that looks at links in a CSV file and if they are valid PDF files, they are downloaded and information about each link is saved in another CSV file even if it was not a valid PDF link. For this project I also used multiple threads to cut the download time for all 250 of the links provided from 3 hours to 2 minutes.",
-      "To see 2 of these projects you can look at my repository, the other projects are either things that would make no sence to save on GitHub or things that must remain private as it contains sensitive information.",
+      "To see two of these projects you can look at my repository, the other projects are either things that would make no sence to save on GitHub or things that must remain private as it contains sensitive information.",
       <LinkButton
         link={"https://github.com/Inga-Helgadottir/ExopiTalentAcademyProjects/"}
         text={"GitHub: ExopiTalentAcademyProjects"}
@@ -306,7 +306,7 @@ export const CoursesHeadingAndParagraphs_eng = [
 
 export const NoPage_eng = {
   heading: "There is no content on this page",
-  content: "Back to the start page",
+  content: "Back to the startpage",
 };
 
 export const FooterHeading_eng = "Contact information";
