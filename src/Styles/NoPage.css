@@ -2,10 +2,11 @@
   text-align: center;
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
 }
 
 .noPageContainer img {
-  margin: 0 auto;
+  margin: 0 auto 10px auto;
 }
 
 .noPageContainer a {
