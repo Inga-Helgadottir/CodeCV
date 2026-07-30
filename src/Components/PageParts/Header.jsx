@@ -1,6 +1,6 @@
 import "../../Styles/Header.css";
 import "../../Styles/ColorVariables.css";
-import imgOfMe from "../../Images/CVpic.jpg";
+import imgOfMe from "../../Images/CV-pic.jpg";
 import UpdateLanguage from "../../Components/PageParts/UpdateLanguage";
 import { getText } from "../../Components/GetCurrentLanguage";
 import { useEffect, useState } from "react";
