@@ -33,11 +33,6 @@ export const NavBarOptions_eng = [
     optionName: "Courses",
     optionDestination: "/Courses",
   },
-  {
-    id: 5,
-    optionName: "Skills",
-    optionDestination: "/Skills",
-  },
 ];
 
 export const AboutMeHeadingAndParagraph_eng = [
