@@ -10,7 +10,7 @@ const Gallery = () => {
   };
 
   const images = importAll(
-    require.context("../../Images/Jordan-pics", false, /\.(jpg)$/),
+    require.context("../../images/Jordan-pics", false, /\.(jpg)$/),
   );
 
   const thumbnailClicked = (id) => {
