@@ -1,6 +1,6 @@
 import "../../Styles/UpdateLanguage.css";
-import UKflag from "../../Images/UKflag.svg";
-import DKflag from "../../Images/DKflag.svg";
+import UKflag from "../../images/UKflag.svg";
+import DKflag from "../../images/DKflag.svg";
 
 const UpdateLanguage = ({ currentLanguage, setCurrentLanguage }) => {
   const updateLanguageFunction = (updateTo) => {

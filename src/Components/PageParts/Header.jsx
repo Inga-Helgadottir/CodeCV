@@ -1,6 +1,6 @@
 import "../../Styles/Header.css";
 import "../../Styles/ColorVariables.css";
-import CVPic from "../../Images/cv-pic.jpg";
+import CVPic from "../../images/cv-pic.jpg";
 import UpdateLanguage from "../../Components/PageParts/UpdateLanguage";
 import { getText } from "../../Components/GetCurrentLanguage";
 import { useEffect, useState } from "react";
