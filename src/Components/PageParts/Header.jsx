@@ -1,6 +1,6 @@
 import "../../Styles/Header.css";
 import "../../Styles/ColorVariables.css";
-import imgOfMe from "../../Images/cv-pic.jpg";
+import CVPic from "../../Images/cv-pic.jpg";
 import UpdateLanguage from "../../Components/PageParts/UpdateLanguage";
 import { getText } from "../../Components/GetCurrentLanguage";
 import { useEffect, useState } from "react";
@@ -17,7 +17,7 @@ const Header = ({ currentLanguage, setCurrentLanguage }) => {
 
   return (
     <header>
-      <img className="headerImg" src={imgOfMe} alt="Me" />
+      <img className="headerImg" src={CVPic} alt="Me" />
       <section className="headerSection">
         <h1 className="HeaderText">Inga Helgadottir</h1>
         <h2 className="HeaderText">{HeaderHeading}</h2>
