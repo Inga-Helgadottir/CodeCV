@@ -89,9 +89,9 @@ export const AboutMeHeadingAndParagraph_dk = [
       "",
       "Yderligere information på dette websted omfatter:",
       <div style={flexRowStyle}>
-        <LinkButton link={"/Experience"} text={"My experience"} />
-        <LinkButton link={"/Education"} text={"My education"} />
-        <LinkButton link={"/Courses"} text={"The courses I have taken"} />
+        <LinkButton link={"/Experience"} text={"Min erfaring"} />
+        <LinkButton link={"/Education"} text={"Min uddannelse"} />
+        <LinkButton link={"/Courses"} text={"De kurser jeg har taget"} />
       </div>,
     ],
   },
@@ -225,7 +225,7 @@ export const EducationHeadingAndParagraphs_dk = [
     position: "Dansk A, Engelsk A og Matematik B",
     date: "(December 2017 –December 2018)",
     paragraphs: [
-      "Jeg tog begge Engelsk A og Dansk 0-A, for at have det på skrift at jeg er fagligt flydende på begge sprog, Matematik B tog jeg for at gøre mig klar til webudvikleren og fordi jeg kan godt lide Matematik.",
+      "Jeg tog begge Engelsk A og Dansk A, for at have det på skrift at jeg er fagligt flydende på begge sprog, Matematik B tog jeg for at gøre mig klar til webudvikleren og fordi jeg kan godt lide Matematik.",
       <LinkButton
         link={"https://vuclyngby.dk/"}
         text={"VUC Lyngby hjemmeside"}
