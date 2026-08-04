@@ -35,6 +35,10 @@ export const NavBarOptions_dk = [
   },
 ];
 
+// Empty strings ""
+// In paragraphs they are used to create space, as the section element returns <br /> if a paragraph is empty
+// Everywhere else the empty values are just not shown on the page
+
 export const AboutMeHeadingAndParagraph_dk = [
   {
     location: "Om mig",

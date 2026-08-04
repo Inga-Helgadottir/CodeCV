@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
 import "../../Styles/Footer.css";
 import "../../Styles/NavAndFooter.css";
+import { useState, useEffect } from "react";
 import { getText } from "../../Components/GetCurrentLanguage";
 
 const Footer = (currentLanguage) => {
@@ -16,19 +16,6 @@ const Footer = (currentLanguage) => {
 
       <div className="footerDiv">
         <a
-          href="mailto:s.inga.helgadottir95@gmail.com"
-          rel="noreferrer"
-          target="_blank"
-        >
-          Email: s.inga.helgadottir95@gmail.com
-        </a>
-
-        <a href="https://github.com/SIngaH" rel="noreferrer" target="_blank">
-          GitHub: SIngaH
-        </a>
-      </div>
-      <div className="footerDiv footerDiv2">
-        <a
           href="https://www.linkedin.com/in/inga-helgadottir/"
           rel="noreferrer"
           target="_blank"
@@ -41,6 +28,18 @@ const Footer = (currentLanguage) => {
           target="_blank"
         >
           GitHub: Inga-Helgadottir
+        </a>
+      </div>
+      <div className="footerDiv footerDiv2">
+        <a
+          href="mailto:s.inga.helgadottir95@gmail.com"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Email: s.inga.helgadottir95@gmail.com
+        </a>
+        <a href="https://github.com/SIngaH" rel="noreferrer" target="_blank">
+          GitHub: SIngaH
         </a>
       </div>
     </footer>

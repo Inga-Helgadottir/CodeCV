@@ -7,7 +7,7 @@ const AboutMe = ({ currentLanguage, setCurrentPage }) => {
 
   useEffect(() => {
     localStorage.setItem("chosenNavElement", 1);
-    setCurrentPage(1);
+    setCurrentPage(1); // id: 1 = "About me"
 
     async function loadText() {
       let AboutMeHeadingAndParagraph = getText("AboutMeHeadingAndParagraph");

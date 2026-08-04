@@ -1,6 +1,6 @@
-import "../../Styles/Gallery.css";
-import { useState } from "react";
 import Arrow from "./Arrow";
+import { useState } from "react";
+import "../../Styles/Gallery.css";
 
 const Gallery = () => {
   const [currentImgId, setCurrentImgId] = useState(0);
@@ -11,6 +11,7 @@ const Gallery = () => {
 
   const images = importAll(
     require.context("../../images/Jordan-pics", false, /\.(jpg)$/),
+    // require.context("location", useSubdirectories?, image type),
   );
 
   const thumbnailClicked = (id) => {

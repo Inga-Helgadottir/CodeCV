@@ -43,6 +43,7 @@ export const setLightTheme = () => {
 
 export const setDarkTheme = () => {
   localStorage.setItem("currentTheme", "dark");
+
   let themeObject = {
     headerBackgroundColorGradient:
       "linear-gradient(to right,#5e1180,#063b8c,#06777a)",

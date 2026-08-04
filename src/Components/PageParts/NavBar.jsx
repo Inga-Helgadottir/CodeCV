@@ -11,19 +11,17 @@ const NavBar = (currentLanguage) => {
   useEffect(() => {
     setNavBarOptions(getText("NavBarOptions"));
     let currentChosenNavBarOption = localStorage.getItem("chosenNavElement");
+
     if (currentChosenNavBarOption === "") {
-      localStorage.setItem("chosenNavElement", 1);
+      localStorage.setItem("chosenNavElement", 1); // id: 1 = "About me" / startpage
     } else {
       setChosenOption(currentChosenNavBarOption);
     }
   }, [currentLanguage]);
 
-  const giveOrTakeChosenId = (e, id) => {
-    let currentElementId = e.id;
-    if (currentElementId === "") {
-      setChosenOption(id);
-      localStorage.setItem("chosenNavElement", id);
-    }
+  const setChosenId = (id) => {
+    setChosenOption(id);
+    localStorage.setItem("chosenNavElement", id);
   };
 
   return (
@@ -36,7 +34,7 @@ const NavBar = (currentLanguage) => {
               className="li"
               key={key}
               to={option.optionDestination}
-              onClick={(e) => giveOrTakeChosenId(e.target, option.id)}
+              onClick={(e) => setChosenId(option.id)}
             >
               {option.optionName}
             </Link>

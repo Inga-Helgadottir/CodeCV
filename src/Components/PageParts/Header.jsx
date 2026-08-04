@@ -1,10 +1,10 @@
 import "../../Styles/Header.css";
 import "../../Styles/ColorVariables.css";
-import CVPic from "../../images/cv-pic.jpg";
-import UpdateLanguage from "../../Components/PageParts/UpdateLanguage";
-import { getText } from "../../Components/GetCurrentLanguage";
 import { useEffect, useState } from "react";
+import CVPic from "../../images/cv-pic.jpg";
 import ChangeTheme from "../PageParts/ChangeTheme";
+import { getText } from "../../Components/GetCurrentLanguage";
+import UpdateLanguage from "../../Components/PageParts/UpdateLanguage";
 
 const Header = ({ currentLanguage, setCurrentLanguage }) => {
   const [HeaderHeading, setHeaderHeading] = useState("");

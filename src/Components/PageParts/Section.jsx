@@ -12,7 +12,7 @@ const Section = (element) => {
               {section.date !== "" && <p>{section.date}</p>}
               {section.paragraphs?.map((paragraph, key) => {
                 if (paragraph === "") {
-                  return <br />;
+                  return <br key={key} />;
                 } else {
                   return (
                     <div key={key} className="sectionParagraph">

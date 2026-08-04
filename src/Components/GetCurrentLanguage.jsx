@@ -33,7 +33,7 @@ export const getText = (whichText) => {
       case "LightDarkMode":
         return English.LightDarkMode_eng;
       default:
-        return "fejl";
+        return "The text you are trying to get does not exist";
     }
   } else {
     switch (whichText) {
@@ -60,7 +60,7 @@ export const getText = (whichText) => {
       case "LightDarkMode":
         return Dansk.LightDarkMode_dk;
       default:
-        return "fejl";
+        return "Teksten du ledder efter findes ikke";
     }
   }
 };
